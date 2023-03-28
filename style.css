@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+body {
+    position: relative;
+    width: 100%;
+}
+
+/* ---------------------------HEADER SECTION START--------------------------- */
+/* ---------------------------HEADER SECTION START--------------------------- */
+/* ---------------------------HEADER SECTION START--------------------------- */
+#header-section .navbar {
+    background-color: whitesmoke;
+}
+#header-section .logo {
+    margin-left: 4rem;
+}
+#header-section .logo > a {
+    color: #316131;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+#header-section .logo > a > span {
+    color: #316131;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+#header-section .navs {
+    display: flex;
+    margin-left: 18px;
+}
+#header-section .nav-link {
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 1.10rem;
+    transition: all 0.5s ease;
+    color: #333333 !important;
+    font-family: 'Work Sans', sans-serif;
+}
+#header-section .nav-link:hover {
+    color: orangered !important;
+}
+#header-section .search-form {
+    display: flex;
+    margin-top: 3px;
+    margin-left: 65px;
+    height: 35px;
+}
+#header-section .glass {
+    background-color: #316131;
+    position: static;
+    margin-right: 3px;
+    width: 55px;
+    height: 100%;
+    border-radius: 2px;
+}
+#header-section .fa-magnifying-glass {
+    color: white;
+    font-size: 1.20rem;
+    margin-top: 8px;
+    margin-left: 19px;
+}
+#header-section .form-control {
+    position: static;
+    border-radius: 0px;
+    border-style: none;
+    width: 300px;
+}
+#header-section .socmeds {
+    display: flex;
+    margin-left: 25px;
+}
+#header-section .socmeds .fa-solid {
+    font-size: 1.20rem;
+    color: #333333;
+}
+/* ---------------------------HEADER SECTION END--------------------------- */
+/* ---------------------------HEADER SECTION END--------------------------- */
+/* ---------------------------HEADER SECTION END--------------------------- */
+
+
+/* ---------------------------CAROUSEL SECTION--------------------------- */
+/* ---------------------------CAROUSEL SECTION--------------------------- */
+/* ---------------------------CAROUSEL SECTION--------------------------- */
