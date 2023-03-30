@@ -301,6 +301,13 @@ body {
 #about-section .btn {
     color: white;
     margin-top: 14px;
+    font-size: 1.2rem;
+    height: 2.6rem;
+    width: 8rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0.1rem;
     background: #316131;
     font-family: 'Work Sans', sans-serif;
 }
@@ -401,8 +408,201 @@ body {
 }
 #services-section .btn {
     color: white;
+    font-size: 1.2rem;
+    height: 2.6rem;
+    width: 8rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0.1rem;
     margin-top: 14px;
     background: #316131;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .service-card-wrap {
+    margin-top: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 40px;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+#services-section .service-image-wrap {
+    position: relative;
+    width: 25%;
+    height: 36.6rem;
+}
+#services-section .service-image {
+    height: 100%;
+    width: 100%;
+}
+#services-section .service-image::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 0.2rem;
+}
+#services-section .service-image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 0.1rem;
+}
+#services-section .service-image-text {
+    padding: 1.6rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 460px;
+    height: auto;
+    background: white;
+    -webkit-transform: translate(-50%, -50%) rotate(-90deg);
+    -ms-transform: translate(-50%, -50%) rotate(-90deg);
+    transform: translate(-50%, -50%) rotate(-90deg);
+}
+#services-section .service-image-text h1 {
+    color: #316131;
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px dashed gray;
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .service-image-text p {
+    padding-top: 0.8rem;
+    color: #333333;
+    font-size: 1.50rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .first-number-card {
+    background-color: #316131;
+    color: white;
+}
+#services-section .first-description-card > h3 {
+    color: #316131;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .first-description-card > p {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .first-read-more {
+    text-decoration: none;
+    color: #316131;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .second-number-card {
+    background-color: #6B8E23;
+    color: white;
+}
+#services-section .second-description-card > h3 {
+    color: #6B8E23;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .second-description-card > p {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .second-read-more {
+    text-decoration: none;
+    color: #6B8E23;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .second-card {
+    margin-top: 30px;
+}
+#services-section .third-number-card {
+    background-color: #2F4F4F;
+    color: white;
+}
+#services-section .third-description-card > h3 {
+    color: #2F4F4F;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .third-description-card > p {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .third-read-more {
+    text-decoration: none;
+    color: #2F4F4F;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .fourth-number-card {
+    background-color: #008080;
+    color: white;
+}
+#services-section .fourth-description-card > h3 {
+    color: #008080;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .fourth-description-card > p {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .fourth-read-more {
+    text-decoration: none;
+    color: #008080;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .third-card {
+    margin-top: 30px;
+}
+#services-section .fifth-number-card {
+    background-color: #A52A2A;
+    color: white;
+}
+#services-section .fifth-description-card > h3 {
+    color: #A52A2A;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .fifth-description-card > p {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .fifth-read-more {
+    text-decoration: none;
+    color: #A52A2A;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .sixth-number-card {
+    background-color: #DC143C;
+    color: white;
+}
+#services-section .sixth-description-card > h3 {
+    color: #DC143C;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .sixth-description-card > p {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .sixth-read-more {
+    text-decoration: none;
+    color: #DC143C;
+    font-weight: bold;
     font-family: 'Work Sans', sans-serif;
 }
 /* ---------------------------SERVICES SECTION END--------------------------- */
