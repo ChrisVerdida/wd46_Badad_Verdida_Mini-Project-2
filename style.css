@@ -106,8 +106,9 @@ body {
     position: absolute;
     z-index: 2;
 }
-#carousel-section .scroll-ticker > marquee > p {
+#carousel-section .scroll-ticker marquee > p {
     color: white;
+    font-family: 'Work Sans', sans-serif;
 }
 #carousel-section .c-item {
     height: 480px;
@@ -259,4 +260,151 @@ body {
 /* ---------------------------ABOUT SECTION START--------------------------- */
 /* ---------------------------ABOUT SECTION START--------------------------- */
 /* ---------------------------ABOUT SECTION START--------------------------- */
+#about-section {
+    margin-top: 60px;
+}
+#about-section .card-title > h4 {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#about-section .card-title > h2 {
+    color: #316131;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#about-section .card-title > p {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#about-section .scroll-ticker {
+    color: white;
 
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)), url('img/background/green-bg.jpg');
+
+    background: -webkit-gradient(linear, left top, left bottom, 
+    from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('img/background/green-bg.jpg');
+
+    background: linear-gradient(rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)), url('img/background/green-bg.jpg');
+
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 24px;
+    z-index: 2;
+}
+#about-section .scroll-ticker marquee > p {
+    font-family: 'Work Sans', sans-serif;
+}
+#about-section .btn {
+    color: white;
+    margin-top: 14px;
+    background: #316131;
+    font-family: 'Work Sans', sans-serif;
+}
+/* ---------------------------ABOUT SECTION END--------------------------- */
+/* ---------------------------ABOUT SECTION END--------------------------- */
+/* ---------------------------ABOUT SECTION END--------------------------- */
+
+
+
+
+/* ---------------------------SERVICES SECTION START--------------------------- */
+/* ---------------------------SERVICES SECTION START--------------------------- */
+/* ---------------------------SERVICES SECTION START--------------------------- */
+#services-section {
+    margin-top: 60px;
+}
+#services-section .card-title > h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .card-title > p {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .card-line {
+    border-bottom: dashed gray;
+}
+#services-section .service-paragraph {
+    display: flex;
+}
+#services-section .fa-solid {
+    color: white;
+    background-color: #316131;
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 2px #888;
+    padding: 0.5em 0.6em;
+    margin-bottom: 15px;
+}
+#services-section .color-text {
+    position: absolute;
+    margin-left: 45px;
+    margin-top: 4px;
+}
+#services-section .service-description-list {
+    padding-top: 0.6rem;
+}
+#services-section .service-description-list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: auto;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+#services-section .service-description-list-item > p {
+    margin-left: 0.6rem;
+    padding: 0 0.2rem 0;
+    position: relative;
+    cursor: pointer;
+}
+#services-section .service-description-list-item:hover p {
+    color: white;
+}
+#services-section .service-description-list-item p::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: olivedrab;
+    border-radius: 0.1rem;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    visibility: hidden;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-transform-origin: left;
+    -ms-transform-origin: left;
+    transform-origin: left;
+    z-index: -1;
+}
+#services-section .service-description-list-item:hover p::before {
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+    visibility: visible;
+}
+#services-section .service-list-item-title {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#services-section .btn {
+    color: white;
+    margin-top: 14px;
+    background: #316131;
+    font-family: 'Work Sans', sans-serif;
+}
+/* ---------------------------SERVICES SECTION END--------------------------- */
+/* ---------------------------SERVICES SECTION END--------------------------- */
+/* ---------------------------SERVICES SECTION END--------------------------- */
