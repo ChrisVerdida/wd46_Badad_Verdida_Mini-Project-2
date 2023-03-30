@@ -208,6 +208,10 @@
     #card-text-section .new-arrivals-products {
         width: calc(100% - 360px);
     }
+
+    #second-card-text-section .new-arrivals-products {
+        width: calc(100% - 360px);
+    }
 }
 
 @media screen and (max-width: 1240px) {
@@ -562,6 +566,33 @@
     }
 
     #card-text-section .new-arrival-card {
+        margin: 0 20px 0 0;
+    }
+
+    /* SECOND SECTION */
+
+    #second-card-text-section .new-arrivals {
+        height: auto;
+    }
+
+    #second-card-text-section  .new-arrivals-wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    #second-card-text-section .new-arrivals-news {
+        width: 100%;
+    }
+
+    #second-card-text-section .new-arrivals-products {
+        margin-top: 2rem;
+        width: 100%;
+        height: 240px;
+    }
+
+    #second-card-text-section .new-arrival-card {
         margin: 0 20px 0 0;
     }
 
@@ -1165,6 +1196,10 @@
     }
 
     #card-text-section .new-arrivals {
+        padding-top: 1rem;
+    }
+
+    #second-card-text-section .new-arrivals {
         padding-top: 1rem;
     }
 

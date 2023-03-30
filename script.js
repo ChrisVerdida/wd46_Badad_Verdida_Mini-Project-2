@@ -7,7 +7,7 @@ let arrivalCard = document.querySelectorAll('.new-arrival-card');
 let move = (arrivalCard[0].offsetWidth + 20) * 3;
 
 let newArrival = setInterval(() => {
-    if (move >= ((arrivalCard[0].offsetWidth + 20) * (arrivalCard.length / 1))) {
+    if (move >= ((arrivalCard[0].offsetWidth + 20) * (arrivalCard.length / 2))) {
         move = 0;
     }
 

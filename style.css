@@ -608,3 +608,141 @@ body {
 /* ---------------------------SERVICES SECTION END--------------------------- */
 /* ---------------------------SERVICES SECTION END--------------------------- */
 /* ---------------------------SERVICES SECTION END--------------------------- */
+
+
+
+
+/* ---------------------------SECOND CARD TEXT SECTION START--------------------------- */
+/* ---------------------------SECOND CARD TEXT SECTION START--------------------------- */
+/* ---------------------------SECOND CARD TEXT SECTION START--------------------------- */
+#second-card-text-section {
+    margin-top: 50px;
+}
+#second-card-text-section .new-arrivals {
+    padding-top: 3rem;
+    width: 99%;
+    height: 300px;
+}
+#second-card-text-section .new-arrivals-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+#second-card-text-section .new-arrivals-news {
+    width: 30%;
+}
+#second-card-text-section .new-arrivals-news h1 {
+    color: #343236 !important;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+    margin-left: 40px;
+    padding-right: 1rem;
+    line-height: 3rem;
+    font-family: 'Work Sans', sans-serif;
+}
+#second-card-text-section .new-arrivals-news p {
+    color: #343236 !important;
+    font-size: 1.4rem;
+    margin-left: 40px;
+    font-weight: bold;
+    margin-bottom: 0.8rem;
+    font-family: 'Work Sans', sans-serif;
+}
+#second-card-text-section .new-arrivals-news button {
+    margin-top: 0.4rem;
+    color: white;
+    margin-left: 40px;
+    font-size: 1.2rem;
+    height: 2.6rem;
+    width: 8rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0.1rem;
+    background: #316131;
+    font-family: 'Work Sans', sans-serif;
+}
+#second-card-text-section .new-arrivals-products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 70%;
+    overflow: hidden;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+#second-card-text-section .new-arrival-card {
+    margin-left: 20px;
+    position: relative;
+    min-width: 305px;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 0.1rem;
+    -webkit-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+#second-card-text-section .new-arrival-card::before {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+#second-card-text-section .new-arrival-card-image {
+    width: 100%;
+    height: 100%;
+}
+#second-card-text-section .new-arrival-card-image img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+#second-card-text-section .new-arrival-card-text {
+    padding: 1rem 0 1rem 1.4rem;
+    position: absolute;
+    bottom: 1.6rem;
+    left: 0rem;
+    width: 14.4rem;
+    border-left: 7px solid #459122;;
+    background: rgba(0, 0, 0, 0.7);
+}
+#second-card-text-section .new-arrival-card-text h3 {
+    color: white;
+    font-size: 1.6rem;
+    text-shadow: 0.1rem 0.1rem 1rem #301934;
+}
+#second-card-text-section .new-arrival-card-text p {
+    padding-top: 0.3rem;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-shadow: 0.1rem 0.1rem 1rem #301934;
+}
+/* ---------------------------SECOND CARD TEXT SECTION END--------------------------- */
+/* ---------------------------SECOND CARD TEXT SECTION END--------------------------- */
+/* ---------------------------SECOND CARD TEXT SECTION END--------------------------- */
+
+
+
+
+/* ---------------------------RECENT COLLECTIONS SECTION START--------------------------- */
+/* ---------------------------RECENT COLLECTIONS SECTION START--------------------------- */
+/* ---------------------------RECENT COLLECTIONS SECTION START--------------------------- */
