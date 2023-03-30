@@ -90,6 +90,32 @@ body {
 /* ---------------------------HEADER SECTION END--------------------------- */
 
 
+
+
 /* ---------------------------CAROUSEL SECTION--------------------------- */
 /* ---------------------------CAROUSEL SECTION--------------------------- */
 /* ---------------------------CAROUSEL SECTION--------------------------- */
+#carousel-section .scroll-ticker {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 24px;
+    position: absolute;
+    z-index: 2;
+}
+#carousel-section .scroll-ticker > marquee > p {
+    color: white;
+}
+#carousel-section .c-item {
+    height: 480px;
+}
+#carousel-section .c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+} 
+#carousel-section .carousel-caption .btn {
+    background-color: #316131;
+    color: white;
+}
+
+
