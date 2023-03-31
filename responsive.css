@@ -7,12 +7,10 @@
         margin-left: 28px;
         width: 90%;
     }
-
     #services-section .service-image-wrap {
         width: 100%;
         height: 20rem;
     }
-
     #services-section .service-image-text {
         top: 50%;
         left: 2rem;
@@ -635,6 +633,16 @@
     .hot-deals .section-wrap {
         padding: 2rem 4rem;
     }  
+    #recent-collections-section .collection-title {
+        border-bottom: dashed gray;
+        width: 380px;
+    }
+    #recent-collections-section .card {
+        width: 10rem;
+    }
+    #recent-collections-section .card > img {
+        height: 180px;
+    }
 }
 
 @media screen and (max-width: 760px) {

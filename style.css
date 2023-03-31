@@ -746,3 +746,43 @@ body {
 /* ---------------------------RECENT COLLECTIONS SECTION START--------------------------- */
 /* ---------------------------RECENT COLLECTIONS SECTION START--------------------------- */
 /* ---------------------------RECENT COLLECTIONS SECTION START--------------------------- */
+#recent-collections-section {
+    margin-top: 120px;
+}
+#recent-collections-section > h2 {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.30rem;
+}
+#recent-collections-section .collection-title {
+    border-bottom: dashed gray;
+}
+#recent-collections-section .collections-background {
+    background-image: url(img/background/food-background.jpg);
+}
+#recent-collections-section .first-carousel {
+    margin-top: 40px;
+}
+#recent-collections-section .second-carousel {
+    margin-top: 40px;
+}
+#recent-collections-section .card-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+#recent-collections-section .card {
+    width: 18rem;
+}
+#recent-collections-section .card > img {
+    height: 250px;
+}
+/* ---------------------------RECENT COLLECTIONS SECTION END--------------------------- */
+/* ---------------------------RECENT COLLECTIONS SECTION END--------------------------- */
+/* ---------------------------RECENT COLLECTIONS SECTION END--------------------------- */
+
+
+
+
+/* ---------------------------FEATURED PRODUCTS SECTION START--------------------------- */
+/* ---------------------------FEATURED PRODUCTS SECTION START--------------------------- */
+/* ---------------------------FEATURED PRODUCTS SECTION START--------------------------- */
