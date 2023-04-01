@@ -643,6 +643,42 @@
     #recent-collections-section .card > img {
         height: 180px;
     }
+    #featured-products-section .collection-title {
+        border-bottom: dashed gray;
+        width: 380px;
+    }
+    #featured-products-section .card {
+        width: 20rem;
+    }
+    #featured-products-section .card > img {
+        height: 250px;
+    }
+    #featured-products-section .vegetable-collections {
+        font-weight: bold;
+        font-family: 'Work Sans', sans-serif;
+    }
+    #featured-products-section .heart-featured {
+        background-color: #61790A;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        margin-top: 12px;
+        margin-left: 15px;
+        border-radius: 15%;
+    }
+    #featured-products-section .fa-heart {
+        color: white;
+        margin-top: 4px;
+        margin-left: 4.50px;
+    }
+    #featured-products-section .featured-products-off {
+        background-image: linear-gradient(to right, #FF4500 , #FF0000);
+        width: 80px;
+        height: 30px;
+        position: absolute;
+        margin-left: 220px;
+        margin-top: 12px;
+    }
 }
 
 @media screen and (max-width: 760px) {

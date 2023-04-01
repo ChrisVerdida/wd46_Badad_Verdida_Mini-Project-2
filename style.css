@@ -750,7 +750,7 @@ body {
     margin-top: 120px;
 }
 #recent-collections-section > h2 {
-    font-weight: bold;
+    font-weight: bold;  
     font-family: 'Work Sans', sans-serif;
     font-size: 2.30rem;
 }
@@ -772,10 +772,15 @@ body {
 }
 #recent-collections-section .card {
     width: 18rem;
+    border-style: none;
 }
 #recent-collections-section .card > img {
     height: 250px;
 }
+#recent-collections-section .card-body {
+    background-color: #343236;
+    color: white;
+}
 /* ---------------------------RECENT COLLECTIONS SECTION END--------------------------- */
 /* ---------------------------RECENT COLLECTIONS SECTION END--------------------------- */
 /* ---------------------------RECENT COLLECTIONS SECTION END--------------------------- */
@@ -786,3 +791,85 @@ body {
 /* ---------------------------FEATURED PRODUCTS SECTION START--------------------------- */
 /* ---------------------------FEATURED PRODUCTS SECTION START--------------------------- */
 /* ---------------------------FEATURED PRODUCTS SECTION START--------------------------- */
+#featured-products-section {
+    margin-top: 120px;
+}
+#featured-products-section > h2 {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.30rem;
+}
+#featured-products-section .container-titles {
+    display: flex;
+    justify-content: space-between;
+}
+#featured-products-section .featured-collect-collections {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#featured-products-section .see-more-collections {
+    font-size: 1.10rem;
+    color: #FF4500;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 16px;
+    text-decoration: none;
+}
+#featured-products-section .first-card-featured {
+    margin-top: 120px;
+}
+#featured-products-section .other-card-featured {
+    margin-top: 60px;
+}
+#featured-products-section .collection-title {
+    border-bottom: dashed gray;
+}
+#featured-products-section .card {
+    width: 16rem;
+    border-style: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#featured-products-section .heart-featured {
+    background-color: #61790A;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 15px;
+    border-radius: 15%;
+}
+#featured-products-section .fa-heart {
+    color: white;
+    margin-top: 7px;
+    margin-left: 6.50px;
+}
+#featured-products-section .featured-products-off {
+    background-image: linear-gradient(to right, #FF4500 , #FF0000);
+    width: 80px;
+    height: 30px;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 12px;
+}
+#featured-products-section .featured-off {
+    color: white;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.10rem;
+    margin-left: 6px;
+    margin-top: 2px;
+}
+#featured-products-section .card > img {
+    height: 200px;
+}
+/* ---------------------------FEATURED PRODUCTS SECTION END--------------------------- */
+/* ---------------------------FEATURED PRODUCTS SECTION END--------------------------- */
+/* ---------------------------FEATURED PRODUCTS SECTION END--------------------------- */
+
+
+
+
+/* ---------------------------COMING SOON BIG OFFER SECTION START--------------------------- */
+/* ---------------------------COMING SOON BIG OFFER SECTION START--------------------------- */
+/* ---------------------------COMING SOON BIG OFFER SECTION START--------------------------- */
+
