@@ -129,11 +129,11 @@
         height: 480px;
     }
 
-    .hot-deals {
+    #big-offer-soon-section .hot-deals {
         height: 920px;
     }
 
-    .hot-deals .countdown-wrap {
+    #big-offer-soon-section .hot-deals .countdown-wrap {
         margin-top: 4rem;
         padding-bottom: 3rem;
         -webkit-box-pack: center;
@@ -141,11 +141,11 @@
         justify-content: center;
     }
 
-    .countdown-wrap .timer {
+    #big-offer-soon-section .countdown-wrap .timer {
         margin: 3rem;
     }
 
-    .countdown-wrap .timer .timer-bg {
+    #big-offer-soon-section .countdown-wrap .timer .timer-bg {
         -webkit-transform: rotate(55deg);
         -ms-transform: rotate(55deg);
         transform: rotate(55deg);
@@ -594,7 +594,7 @@
         margin: 0 20px 0 0;
     }
 
-    .hot-deals {
+    #big-offer-soon-section .hot-deals {
         height: 890px;
     }
 
@@ -630,7 +630,7 @@
 }
 
 @media screen and (max-width: 764px) {
-    .hot-deals .section-wrap {
+    #big-offer-soon-section .hot-deals .section-wrap {
         padding: 2rem 4rem;
     }  
     #recent-collections-section .collection-title {
@@ -730,7 +730,7 @@
         border-radius: 0.2rem 0 0 0.2rem;
     }
 
-    .countdown-wrap .timer .timer-bg {
+    #big-offer-soon-section .countdown-wrap .timer .timer-bg {
         height: 200px;
         width: 200px;
     }
@@ -744,7 +744,7 @@
         height: auto;
     }
 
-    .countdown-wrap .timer {
+    #big-offer-soon-section .countdown-wrap .timer {
         margin: 2.4rem;
     }
 }
@@ -864,7 +864,7 @@
         height: auto;
     }
 
-    .hot-deals {
+    #big-offer-soon-section .hot-deals {
         height: 1420px;
     }
 }
@@ -899,7 +899,7 @@
         height: auto;
     }
 
-    .hot-deals .hot-deals-title h1 {
+    #big-offer-soon-section .hot-deals .hot-deals-title h1 {
         font-size: 2.4rem;
     }
 
@@ -972,7 +972,7 @@
         padding: 2rem 1rem;
     }
 
-    .hot-deals .section-wrap {
+    #big-offer-soon-section .hot-deals .section-wrap {
         padding: 2rem 1rem;
     }
 
@@ -1279,7 +1279,7 @@
         padding-top: 1.2rem;
     }
 
-    .hot-deals .hot-deals-title h1 {
+    #big-offer-soon-section .hot-deals .hot-deals-title h1 {
         font-size: 2rem;
     }
 
