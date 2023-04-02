@@ -973,3 +973,251 @@ body {
 /* ---------------------------GREAT DEALS SECTION START--------------------------- */
 /* ---------------------------GREAT DEALS SECTION START--------------------------- */
 /* ---------------------------GREAT DEALS SECTION START--------------------------- */
+#great-deals-section {
+    margin-top: 120px;
+}
+#great-deals-section .section-title > h2 {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.30rem;
+}
+#great-deals-section .container-titles{
+    border-bottom: dashed gray;
+}
+#great-deals-section .great-deals-products {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+#great-deals-section .great-deals-product-wrap {
+    position: relative;
+    margin-top: 3rem;
+    height: 360px;
+    width: 440px;
+    background: white;
+    border-radius: 0.2rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#great-deals-section .great-deals-image {
+    position: relative;
+    height: 123%;
+    width: 100%;
+    border-radius: 0 0 0.1rem 0.1rem;
+    overflow: hidden;
+}
+#great-deals-section .great-deals-image::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+#great-deals-section .great-deals-image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+#great-deals-section .great-deals-description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+#great-deals-section .great-deals-product-name {
+    padding: 1rem;
+}
+#great-deals-section .gd-product-name {
+    color: white;
+    font-size: 2rem;
+    font-weight: 800;
+    text-decoration: underline;
+    background: rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem);
+    display: inline-block;
+}
+#great-deals-section .gd-price-and-discount {
+    padding: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+#great-deals-section .gd-price-box h2 {
+    padding: 0.4rem 0.6rem;
+    background: #459022;
+    border-radius: 0.05rem;
+    -webkit-box-shadow: 0 0 1rem 0 black;
+    box-shadow: 0 0 1rem 0 black;
+}
+#great-deals-section .gd-price-box h2 span {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+#great-deals-section .gd-discount-box {
+    padding-left: 0.6rem;
+}
+#great-deals-section .gd-discount-box .gd-discount {
+    color: white;
+    padding: 0.4rem 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background: red;
+    border-radius: 0.05rem;
+    -webkit-box-shadow: 0 0 1rem 0 black;
+    box-shadow: 0 0 1rem 0 black;
+}
+#great-deals-section .gd-discount-box p:nth-child(2) {
+    padding: 0.2rem;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+#great-deals-section .great-deals-timer {
+    margin-top: 0.6rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+}
+#great-deals-section .great-deals-timer .gd-timer {
+    display: -ms-grid;
+    display: grid;
+    height: 90px;
+    width: 90px;
+    place-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: black;
+    border: 3px solid white;
+    border-radius: 0.1rem;
+}
+#great-deals-section .gd-timer > div > h1 {
+    color: white;
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#great-deals-section .gd-timer > div > p {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#great-deals-section .offer-ends-date-box {
+    margin-top: 1.4rem;
+    padding: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+#great-deals-section .offer-ends-date-box>p {
+    padding: 0.4rem 0.6rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    background: #f00534;
+    border-radius: 0.05rem;
+    -webkit-box-shadow: 0 0 1rem 0 black;
+    box-shadow: 0 0 1rem 0 black;
+}
+#great-deals-section .gd-rating-and-action {
+    padding: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+#great-deals-section .gd-rating-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+#great-deals-section .gd-rating-box p {
+    cursor: pointer;
+    margin-right: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+#great-deals-section .gd-rating-box .gd-rating-span {
+    margin-top: 0.3rem;
+}
+#great-deals-section .gd-rating-box .gd-rating-avg {
+    margin-top: 0.6rem;
+}
+#great-deals-section .gd-rating-box p strong {
+    color: white;
+    font-size: 1.6rem;
+    text-shadow: 0.2rem 0.2rem 0.6rem black;
+}
+#great-deals-section .gd-button button {
+    margin-bottom: 0.6rem;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    height: 2.4rem;
+    width: 7rem;
+    cursor: pointer;
+    background: #459122;
+    border-radius: 0.1rem;
+    -webkit-box-shadow: 0 0 1rem 0 black;
+    box-shadow: 0 0 1rem 0 black;
+}
+#great-deals-section .gd-review-count-box {
+    display: none;
+}
+/* ---------------------------GREAT DEALS SECTION END--------------------------- */
+/* ---------------------------GREAT DEALS SECTION END--------------------------- */
+/* ---------------------------GREAT DEALS SECTION END--------------------------- */
+
+
+
+
+/* ---------------------------GRADING PRODUCTS SECTION START--------------------------- */
+/* ---------------------------GRADING PRODUCTS SECTION START--------------------------- */
+/* ---------------------------GRADING PRODUCTS SECTION START--------------------------- */
