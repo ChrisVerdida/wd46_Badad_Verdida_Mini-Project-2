@@ -1286,7 +1286,7 @@
         font-size: 2rem;
     }
 
-    .faq-title {
+    #faq-section .faq-title {
         font-size: 1.4rem;
     }
 
@@ -1471,10 +1471,6 @@
 
     .review-content .review-text {
         font-size: 0.9rem;
-    }
-
-    .blog-title a h2 {
-        font-size: 1.1rem;
     }
 
     .contact-section {

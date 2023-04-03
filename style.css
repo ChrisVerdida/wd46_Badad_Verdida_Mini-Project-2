@@ -1332,3 +1332,175 @@ body {
 /* ---------------------------FAQ SECTION END--------------------------- */
 /* ---------------------------FAQ SECTION END--------------------------- */
 
+
+
+
+/* ---------------------------BLOGS AND REVIEWS START--------------------------- */
+/* ---------------------------BLOGS AND REVIEWS START--------------------------- */
+/* ---------------------------BLOGS AND REVIEWS START--------------------------- */
+#blogs-reviews-section {
+    margin-top: 120px;
+}
+#blogs-reviews-section .section-title > h2 {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.30rem;
+}
+#blogs-reviews-section .container-titles {
+    border-bottom: dashed gray;
+}
+#blogs-reviews-section .container-titles-read {
+    display: flex;
+    justify-content: space-between;
+}
+#blogs-reviews-section .featured-collect-collections {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#blogs-reviews-section .see-more-collections {
+    font-size: 1.10rem;
+    color: #FF4500;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 16px;
+    text-decoration: none;
+}
+#blogs-reviews-section .blog-wrap {
+    margin-top: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+#blogs-reviews-section .blog-content {
+    margin-bottom: 3rem;
+    height: 320px;
+    width: 420px;
+    -webkit-box-shadow: 0.6rem 0.6rem 1rem white;
+    box-shadow: 0.6rem 0.6rem 1rem white;
+    border: 1px solid gray;
+    border-radius: 0.1rem;
+}
+#blogs-reviews-section .blog-content-wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#blogs-reviews-section .blog-image {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: 3px solid gray;
+    border-radius: 0.1rem;
+}
+#blogs-reviews-section .blog-image::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+#blogs-reviews-section .blog-image img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 0.1rem;
+}
+#blogs-reviews-section .blog-tags {
+    position: absolute;
+    bottom: 1.4rem;
+    left: 1rem;
+}
+#blogs-reviews-section .blog-tags p {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#blogs-reviews-section .blog-tags p strong {
+    text-shadow: 0.2rem 0.2rem 0.6rem black;
+}
+#blogs-reviews-section .blog-tags p span {
+    padding: 0.2rem 0.6rem;
+    margin-left: 0.4rem;
+    background: #428921;
+    border-radius: 0.1rem;
+    -webkit-box-shadow: 0 0 1rem 0 black;
+    box-shadow: 0 0 1rem 0 black;
+}
+#blogs-reviews-section .blog-published-date {
+    position: absolute;
+    top: 2rem;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 2.6rem;
+    width: 12rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: -o-linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('img/background/green-bg.jpg');
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('img/background/green-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+}
+#blogs-reviews-section .blog-published-date p {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 17px;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#blogs-reviews-section .blog-title {
+    position: absolute;
+    bottom: 3.8rem;
+    left: 0;
+}
+#blogs-reviews-section .blog-title a {
+    text-decoration: none;
+}
+#blogs-reviews-section .blog-title a h2 {
+    padding: 0.6rem 1rem;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 500;
+    background: rgba(0, 0, 0, 0.7);
+    -webkit-box-shadow: 0 0 0.8rem black;
+    box-shadow: 0 0 0.8rem black;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#blogs-reviews-section .blog-title a h2:hover {
+    color: olivedrab;
+}
+/* ---------------------------BLOGS AND REVIEWS END--------------------------- */
+/* ---------------------------BLOGS AND REVIEWS END--------------------------- */
+/* ---------------------------BLOGS AND REVIEWS END--------------------------- */
+
+
+
+
+/* ---------------------------CUSTOMER REVIEW SECTION START--------------------------- */
+/* ---------------------------CUSTOMER REVIEW SECTION START--------------------------- */
+/* ---------------------------CUSTOMER REVIEW SECTION START--------------------------- */
+
+
+
