@@ -241,3 +241,33 @@ let timeCount3 = setInterval((date, time) => {
 // ----------------- GREAT DEALS SECTION END -----------------
 // ----------------- GREAT DEALS SECTION END -----------------
 // ----------------- GREAT DEALS SECTION END -----------------
+
+
+
+
+// ----------------- FAQ SECTION START -----------------
+// ----------------- FAQ SECTION START -----------------
+// ----------------- FAQ SECTION START -----------------
+let faqTitle = document.querySelectorAll('.faq-title');
+let faqText = document.querySelectorAll('.faq-text');
+let faqIcon = document.querySelectorAll('.faq-icon');
+let faqPrevIndex = null;
+for (let i = 0; i < faqTitle.length; i++) {
+    faqTitle[i].addEventListener('click', () => {
+        for (let j = 0; j < faqText.length; j++) {
+            faqText[j].classList.remove('active-faq-text');
+            faqIcon[j].classList.remove('active-faq-icon');
+        }
+        if (faqPrevIndex === i) {
+            faqPrevIndex = null;
+        } else {
+            faqText[i].classList.add('active-faq-text');
+            faqIcon[i].classList.add('active-faq-icon');
+            faqPrevIndex = i;
+        }
+    });
+}
+// ----------------- FAQ SECTION END -----------------
+// ----------------- FAQ SECTION END -----------------
+// ----------------- FAQ SECTION END -----------------
+
