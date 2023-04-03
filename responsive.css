@@ -682,6 +682,19 @@
     #great-deals-section .great-deals-product-wrap {
         margin-top: 100px;
     }
+    #overview-section .section-title > h2 {
+        font-weight: bold;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 1.80rem;
+        width: 450px;
+        color: #316131;
+    }
+    #overview-section .card {
+        width: 360px;
+    }
+    #overview-section .card > img {
+        height: 250px;
+    }
 }
 
 @media screen and (max-width: 760px) {
