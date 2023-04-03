@@ -16,6 +16,12 @@ body {
 /* ---------------------------HEADER SECTION START--------------------------- */
 /* ---------------------------HEADER SECTION START--------------------------- */
 /* ---------------------------HEADER SECTION START--------------------------- */
+#header-section {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
 #header-section .navbar {
     background-color: whitesmoke;
 }
@@ -99,6 +105,9 @@ body {
 /* ---------------------------CAROUSEL SECTION START--------------------------- */
 /* ---------------------------CAROUSEL SECTION START--------------------------- */
 /* ---------------------------CAROUSEL SECTION START--------------------------- */
+#carousel-section {
+    margin-top: 65px;
+}
 #carousel-section .scroll-ticker {
     background: rgba(0, 0, 0, 0.7);
     width: 100%;
@@ -1221,3 +1230,7 @@ body {
 /* ---------------------------GRADING PRODUCTS SECTION START--------------------------- */
 /* ---------------------------GRADING PRODUCTS SECTION START--------------------------- */
 /* ---------------------------GRADING PRODUCTS SECTION START--------------------------- */
+#grading-section-start {
+    margin-top: 210px;
+}
+
