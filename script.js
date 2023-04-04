@@ -271,3 +271,16 @@ for (let i = 0; i < faqTitle.length; i++) {
 // ----------------- FAQ SECTION END -----------------
 // ----------------- FAQ SECTION END -----------------
 
+ // CUSTOMER REVIEW ANIMATION
+ let reviewContents = document.querySelectorAll('.review-content');
+ let prevElemIndex = null;
+
+ for (let i = 0; i < reviewContents.length; i++) {
+     reviewContents[i].classList.add('close-review');
+     reviewContents[i].onclick = () => {
+         for (let j = 0; j < reviewContents.length; j++) {
+             reviewContents[j].classList.toggle('close-review');
+         }
+     }
+ }
+// CUSTOMER REVIEW END
