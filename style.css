@@ -1647,7 +1647,7 @@ body {
     width: 630px;
     border: 1px solid var(--color-light-4);
     background: var(--color-light-1);
-    border-radius: 0.2rem;
+    border-radius: 1rem;
     -webkit-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
     transition: all 0.4s ease;
@@ -1760,5 +1760,127 @@ body {
 /* ---------------------------CUSTOMER REVIEW SECTION END--------------------------- */
 /* ---------------------------CUSTOMER REVIEW SECTION END--------------------------- */
 /* ---------------------------CUSTOMER REVIEW SECTION END--------------------------- */
+
+
+/* ---------------------------CALL TO ACTION START--------------------------- */
+/* ---------------------------CALL TO ACTION START--------------------------- */
+/* ---------------------------CALL TO ACTION START--------------------------- */
+
+.call-to-action {
+    height: auto;
+    width: 100%;
+    background: var(--color-light-1);
+}
+
+.call-to-action-wrap {
+    padding: 4rem 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: url('img/background/call-to-action.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.call-to-action-image {
+    height: 420px;
+    -ms-flex-preferred-size: 500px;
+    flex-basis: 500px;
+    border: 1px solid var(--color-light-5);
+}
+
+.cta-image-content {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: 3px solid var(--color-light-1);
+    border-radius: 0.2rem;
+    -webkit-box-shadow: 0.4rem 0.4rem 1rem var(--color-dark-5);
+    box-shadow: 0.4rem 0.4rem 1rem var(--color-dark-5);
+}
+
+.cta-image-content img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.call-to-action-details {
+    padding-left: 4rem;
+    width: 50%;
+}
+
+.cta-save-per {
+    color: crimson;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.cta-offer-title,
+.cta-offer-price {
+    color: var(--color-primary);
+    font-size: 4rem;
+    padding-top: 1rem;
+}
+
+.cta-offer-price {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.cta-offer-msg {
+    position: relative;
+    color: var(--color-dark-3);
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 1.4rem;
+    display: inline-block;
+}
+
+.cta-offer-msg::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: '';
+    height: 1rem;
+    width: 100%;
+    background: rgb(255, 0, 0, 0.4);
+}
+
+.cta-product-type {
+    display: none;
+}
+
+.cta-button {
+    margin: 2rem 0 0 0.4rem;
+    color: var(--color-light-1);
+    font-size: 1.6rem;
+    height: 3.6rem;
+    width: 10rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0.1rem;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    background: var(--color-primary);
+}
+
+
+/* ---------------------------CALL TO ACTION END--------------------------- */
+/* ---------------------------CALL TO ACTION END--------------------------- */
+/* ---------------------------CALL TO ACTION END--------------------------- */
 
 
