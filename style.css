@@ -1721,9 +1721,9 @@ body {
 
 
 
-/* ---------------------------CALL TO ACTION START--------------------------- */
-/* ---------------------------CALL TO ACTION START--------------------------- */
-/* ---------------------------CALL TO ACTION START--------------------------- */
+/* ---------------------------CALL TO ACTION SECTION START--------------------------- */
+/* ---------------------------CALL TO ACTION SECTION START--------------------------- */
+/* ---------------------------CALL TO ACTION SECTION START--------------------------- */
 #call-to-action-section .call-to-action {
     height: auto;
     width: 100%;
@@ -1832,9 +1832,9 @@ body {
     font-weight: bold;
     font-family: 'Work Sans', sans-serif;
 }
-/* ---------------------------CALL TO ACTION END--------------------------- */
-/* ---------------------------CALL TO ACTION END--------------------------- */
-/* ---------------------------CALL TO ACTION END--------------------------- */
+/* ---------------------------CALL TO ACTION SECTION END--------------------------- */
+/* ---------------------------CALL TO ACTION SECTION END--------------------------- */
+/* ---------------------------CALL TO ACTION SECTION END--------------------------- */
 
 
 
@@ -1888,11 +1888,15 @@ body {
     width: 100%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
 }
 #contact-us-section .form-wrap .title h1 {
     color: #61790a;
     font-size: 2.6rem;
     text-align: center;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
 }
 #contact-us-section .form-wrap .contact-area {
     padding-top: 3rem;
@@ -2079,3 +2083,16 @@ body {
 /* ---------------------------CONTACT US SECTION END--------------------------- */
 /* ---------------------------CONTACT US SECTION END--------------------------- */
 /* ---------------------------CONTACT US SECTION END--------------------------- */
+
+
+
+
+/* ---------------------------FOOTER SECTION START--------------------------- */
+/* ---------------------------FOOTER SECTION START--------------------------- */
+/* ---------------------------FOOTER SECTION START--------------------------- */
+#footer-section footer {
+    background-color: #211E25;
+}
+/* ---------------------------FOOTER SECTION END--------------------------- */
+/* ---------------------------FOOTER SECTION END--------------------------- */
+/* ---------------------------FOOTER SECTION END--------------------------- */
