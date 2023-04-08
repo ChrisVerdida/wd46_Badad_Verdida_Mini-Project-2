@@ -11,6 +11,7 @@ html {
 body {
     position: relative;
     width: 100%;
+    overflow-x: hidden;
 }
 
 /* ---------------------------HEADER SECTION START--------------------------- */
@@ -2093,6 +2094,9 @@ body {
 /* ---------------------------FOOTER SECTION START--------------------------- */
 /* ---------------------------FOOTER SECTION START--------------------------- */
 /* ---------------------------FOOTER SECTION START--------------------------- */
+#footer-section {
+    margin-top: 140px;
+}
 #footer-section footer {
     background-color: #211E25;
 }

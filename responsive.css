@@ -102,6 +102,19 @@
         margin-left: 150px;
         margin-top: 12px;
     }
+    #great-deals-section .great-deals-product-wrap {
+        position: relative;
+        margin-top: 7rem;
+        height: 360px;
+        width: 440px;
+        background: white;
+        border-radius: 0.2rem;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    #overview-section .card > img {
+        height: 210px;
+    }
 }
 @media screen and (max-width: 1170px) {
     #header-section .logo {
@@ -302,6 +315,25 @@
         margin-left: 100px;
         margin-top: 12px;
     }
+    #overview-section .card > img {
+        height: 190px;
+    }
+    #overview-section {
+        margin-top: 130px;
+        margin-right: 200px;
+    }
+}
+@media screen and (max-width: 990px) {
+    #overview-section .col {
+        width: 230px;
+    }
+    #overview-section .card > img {
+        height: 190px;
+    }
+    #overview-section {
+        margin-top: 130px;
+        margin-right: 200px;
+    }
 }
 @media screen and (max-width: 980px) {
     #customer-review-section .review-items .review-content {
@@ -334,29 +366,12 @@
         width: 100%;
         padding: 1rem 4rem 0 4rem;
     }
-    nav .search-box {
-        width: 18rem;
-    }
-    nav.active .search-box {
-        width: 18rem;
-    }
     #big-offer-soon-section .countdown-wrap .timer .timer-bg {
         height: 190px;
         width: 190px;
     }
     #big-offer-soon-section .countdown-wrap .timer {
         margin: 2rem;
-    }
-    .cart-contents-area .cart-content {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        height: auto;
-    }
-    .cart-content .cart-image-area {
-        height: 380px;
-        width: 100%;
     }
 }
 @media screen and (max-width: 920px) {
@@ -375,23 +390,6 @@
         position: absolute;
         margin-left: 90px;
         margin-top: 12px;
-    }
-}
-@media screen and (max-width: 880px) {
-    .hero {
-        height: 400px;
-    }
-    .hero-image {
-        height: 82%;
-        width: 320px;
-    }
-    .hero-description .hero-title {
-        font-size: 2rem;
-    }
-    .hero-description button {
-        font-size: 1.2rem;
-        height: 3rem;
-        width: 8rem;
     }
 }
 @media screen and (max-width: 858px) {
@@ -476,7 +474,7 @@
         margin: 0 20px 0 0;
     }
     #big-offer-soon-section .hot-deals {
-        height: 890px;
+        height: 1300px;
     }
 }
 @media screen and (max-width: 764px) {
@@ -539,11 +537,15 @@
         width: 450px;
         color: #316131;
     }
-    #overview-section .card {
-        width: 360px;
+    #overview-section .col {
+        width: 240px;
     }
     #overview-section .card > img {
-        height: 250px;
+        height: 190px;
+    }
+    #overview-section {
+        margin-top: 130px;
+        margin-right: 200px;
     }
 }
 @media screen and (max-width: 760px) {
@@ -560,6 +562,11 @@
     }
     #big-offer-soon-section .countdown-wrap .timer {
         margin: 2.4rem;
+    }
+}
+@media screen and (max-width: 698px) {
+    #big-offer-soon-section .hot-deals {
+        height: 1400px;
     }
 }
 @media screen and (max-width: 680px) {
@@ -598,6 +605,36 @@
     }
     #contact-us-section .contact-area .contact-info {
         width: 80%;
+    }
+}
+@media screen and (max-width: 540px) {
+    #header-section {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 4;
+    }
+    #header-section .logo {
+        margin-left: 1px;
+    }
+    #header-section .nav-link {
+        margin-left: 13px;
+        font-weight: bold;
+        font-size: 1.10rem;
+        transition: all 0.5s ease;
+        color: #333333 !important;
+        font-family: 'Work Sans', sans-serif;
+    }
+    #header-section .search-form {
+        display: flex;
+        margin-top: 3px;
+        margin-left: 30px;
+        height: 35px;
+        width: 400px;
+    }
+    #header-section .socmeds {
+        display: flex;
+        margin-left: 20px;
     }
 }
 @media screen and (max-width: 490px) {
