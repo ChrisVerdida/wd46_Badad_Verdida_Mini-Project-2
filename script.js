@@ -284,3 +284,19 @@ for (let i = 0; i < faqTitle.length; i++) {
      }
  }
 // CUSTOMER REVIEW END
+
+
+
+
+// ----------------- FEATURED HEART SECTION START -----------------
+// ----------------- FEATURED HEART SECTION START -----------------
+// ----------------- FEATURED HEART SECTION START -----------------
+function myHeart(element) {
+    const currentColor = element.style.backgroundColor;
+    if (currentColor == "green") {
+      element.style.backgroundColor = "orangered";
+    } 
+    else {
+      element.style.backgroundColor = "green";
+    }
+  }
