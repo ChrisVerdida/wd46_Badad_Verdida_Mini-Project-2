@@ -271,19 +271,25 @@ for (let i = 0; i < faqTitle.length; i++) {
 // ----------------- FAQ SECTION END -----------------
 // ----------------- FAQ SECTION END -----------------
 
- // CUSTOMER REVIEW ANIMATION
- let reviewContents = document.querySelectorAll('.review-content');
- let prevElemIndex = null;
 
- for (let i = 0; i < reviewContents.length; i++) {
-     reviewContents[i].classList.add('close-review');
-     reviewContents[i].onclick = () => {
-         for (let j = 0; j < reviewContents.length; j++) {
-             reviewContents[j].classList.toggle('close-review');
-         }
-     }
- }
-// CUSTOMER REVIEW END
+
+
+// ----------------- CUSTOMER REVIEW ANIMATION SECTION START -----------------
+// ----------------- CUSTOMER REVIEW ANIMATION SECTION START -----------------
+// ----------------- CUSTOMER REVIEW ANIMATION SECTION START -----------------
+let reviewContents = document.querySelectorAll('.review-content');
+let prevElemIndex = null;
+    for (let i = 0; i < reviewContents.length; i++) {
+        reviewContents[i].classList.add('close-review');
+        reviewContents[i].onclick = () => {
+        for (let j = 0; j < reviewContents.length; j++) {
+            reviewContents[j].classList.toggle('close-review');
+        }
+    }
+}
+// ----------------- CUSTOMER REVIEW ANIMATION SECTION END -----------------
+// ----------------- CUSTOMER REVIEW ANIMATION SECTION END -----------------
+// ----------------- CUSTOMER REVIEW ANIMATION SECTION END -----------------
 
 
 
@@ -299,4 +305,7 @@ function myHeart(element) {
     else {
       element.style.backgroundColor = "green";
     }
-  }
+}
+// ----------------- FEATURED HEART SECTION END -----------------
+// ----------------- FEATURED HEART SECTION END -----------------
+// ----------------- FEATURED HEART SECTION END -----------------

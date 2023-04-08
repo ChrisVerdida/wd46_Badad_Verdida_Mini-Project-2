@@ -130,10 +130,10 @@
         -ms-transform: rotate(55deg);
         transform: rotate(55deg);
     }
-    .contact-section {
+    #contact-us-section .contact-section {
         height: 120vh;
     }
-    .form-area .form-wrap {
+    #contact-us-section .form-area .form-wrap {
         width: 90%;
         height: 620px;
     }
@@ -188,14 +188,13 @@
     .service-description-image {
         height: 540px;
     }
-    .call-to-action-details {
+    #call-to-action-section .call-to-action-details {
         padding-left: 2.4rem;
     }
     .shopping-details-wrap {
         overflow-x: auto;
     }
-    .shopping-details-header,
-    .shopping-details {
+    .shopping-details-header, .shopping-details {
         width: 1480px;
     }
 }
@@ -206,17 +205,16 @@
     .about-image {
         height: 580px;
     }
-    .cta-save-per {
+    #call-to-action-section .cta-save-per {
         font-size: 2.2rem;
     }
-    .cta-offer-title,
-    .cta-offer-price {
+    #call-to-action-section .cta-offer-title, .cta-offer-price {
         font-size: 3.4rem;
     }
-    .cta-offer-msg {
+    #call-to-action-section .cta-offer-msg {
         font-size: 1.4rem;
     }
-    .cta-button {
+    #call-to-action-section .cta-button {
         font-size: 1.6rem;
     }
 }
@@ -293,15 +291,15 @@
     .shop-title h1 {
         font-size: 1.8rem;
     }
-    .contact-area .contact-info {
+    #contact-us-section .contact-area .contact-info {
         margin-left: 3rem;
     }
-    .contact-area .contact-form {
+    #contact-us-section .contact-area .contact-form {
         padding: 0 1.8rem;
     }
 }
 @media screen and (max-width: 1000px) {
-    .call-to-action-details {
+    #call-to-action-section .call-to-action-details {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -364,15 +362,15 @@
         width: 100%;
         height: 450px;
     }
-    .contact-section {
+    #contact-us-section .contact-section {
         height: 162vh;
     }
-    .form-area .form-wrap {
+    #contact-us-section .form-area .form-wrap {
         padding-bottom: 3.6rem;
         width: 80%;
         height: auto;
     }
-    .form-wrap .contact-area {
+    #contact-us-section .form-wrap .contact-area {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -381,11 +379,11 @@
         -ms-flex-pack: center;
         justify-content: center;
     }
-    .contact-area .contact-info {
+    #contact-us-section .contact-area .contact-info {
         width: 50%;
         margin-left: 4rem;
     }
-    .contact-area .contact-form {
+    #contact-us-section .contact-area .contact-form {
         width: 100%;
         padding: 1rem 4rem 0 4rem;
     }
@@ -505,8 +503,7 @@
     .login-and-signup-wrap {
         width: 350px;
     }
-    .login-wrap,
-    .signup-wrap {
+    .login-wrap, .signup-wrap {
         padding: 2.6rem 1.2rem;
     }
     .ls-from-title h1 {
@@ -626,10 +623,10 @@
         height: 200px;
         width: 200px;
     }
-    .contact-section {
+    #contact-us-section .contact-section {
         height: 1100px;
     }
-    .form-area .form-wrap {
+    #contact-us-section .form-area .form-wrap {
         width: 88%;
         height: auto;
     }
@@ -723,13 +720,13 @@
     .cart-content .cart-details p {
         font-size: 1.2rem;
     }
-    .contact-section {
+    #contact-us-section .contact-section {
         height: 1100px;
     }
-    .contact-area .contact-info {
+    #contact-us-section .contact-area .contact-info {
         width: 70%;
     }
-    .form-area .form-wrap {
+    #contact-us-section .form-area .form-wrap {
         top: -82%;
         width: 88%;
         height: auto;
@@ -766,7 +763,7 @@
     #big-offer-soon-section .hot-deals .hot-deals-title h1 {
         font-size: 2.4rem;
     }
-    .contact-area .contact-info {
+    #contact-us-section .contact-area .contact-info {
         width: 80%;
     }
     .subscribe-wrap .subscribe-text p {
@@ -840,20 +837,19 @@
     nav .menu-items {
         right: 2.2rem;
     }
-    .call-to-action-image {
+    #call-to-action-section .call-to-action-image {
         height: 320px;
     }
-    .cta-save-per {
+    #call-to-action-section .cta-save-per {
         font-size: 2rem;
     }
-    .cta-offer-title,
-    .cta-offer-price {
+    #call-to-action-section .cta-offer-title, .cta-offer-price {
         font-size: 3rem;
     }
-    .cta-offer-msg {
+    #call-to-action-section .cta-offer-msg {
         font-size: 1.2rem;
     }
-    .cta-button {
+    #call-to-action-section .cta-button {
         font-size: 1.2rem;
         height: 3rem;
         width: 8rem;
@@ -878,28 +874,28 @@
     #customer-review-section .review-content .review-text {
         font-size: 0.98rem;
     }
-    .call-to-action-image {
+    #call-to-action-section .call-to-action-image {
         margin-top: 1.2rem;
     }
-    .call-to-action-details {
+    #call-to-action-section .call-to-action-details {
         padding-bottom: 1.2rem;
     }
-    .contact-section {
+    #contact-us-section .contact-section {
         height: 1100px;
     }
-    .contact-area .contact-info {
+    #contact-us-section .contact-area .contact-info {
         width: 80%;
         margin-left: 1.2rem;
     }
-    .form-area .form-wrap {
+    #contact-us-section .form-area .form-wrap {
         top: -82%;
         width: 88%;
         height: auto;
     }
-    .contact-info>div>p {
+    #contact-us-section .contact-info > div > p {
         font-size: 1.2rem;
     }
-    .contact-area .contact-form {
+    #contact-us-section .contact-area .contact-form {
         margin-top: 1.4rem;
         padding: 0 1.2rem;
     }
@@ -978,9 +974,7 @@
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
-    .footer-wrap>.footer-menu,
-    .footer-wrap>.top-products-links,
-    .footer-wrap>.useful-links {
+    .footer-wrap>.footer-menu, .footer-wrap>.top-products-links, .footer-wrap>.useful-links {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
     }
@@ -1064,39 +1058,38 @@
     #faq-section .faq-title {
         font-size: 1.4rem;
     }
-    .call-to-action-image {
+    #call-to-action-section .call-to-action-image {
         height: 300px;
     }
-    .cta-save-per {
+    #call-to-action-section .cta-save-per {
         font-size: 1.8rem;
     }
-    .cta-offer-title,
-    .cta-offer-price {
+    #call-to-action-section .cta-offer-title, .cta-offer-price {
         font-size: 2.6rem;
     }
-    .cta-offer-msg {
+    #call-to-action-section .cta-offer-msg {
         font-size: 1rem;
     }
-    .cta-button {
+    #call-to-action-section .cta-button {
         font-size: 1.1rem;
         height: 2.8rem;
         width: 7.2rem;
     }
-    .contact-section {
+    #contact-us-section .contact-section {
         height: 1100px;
     }
-    .contact-area .contact-info {
+    #contact-us-section .contact-area .contact-info {
         width: 80%;
         margin-left: 1.2rem;
     }
-    .form-area .form-wrap {
+    #contact-us-section .form-area .form-wrap {
         width: 90%;
         height: auto;
     }
-    .contact-info>div>p {
+    #contact-us-section .contact-info > div > p {
         font-size: 1.2rem;
     }
-    .contact-area .contact-form {
+    #contact-us-section .contact-area .contact-form {
         width: 100%;
         padding: 1rem 1rem 0 1rem;
     }
@@ -1206,27 +1199,27 @@
     #customer-review-section .review-content .review-text {
         font-size: 0.9rem;
     }
-    .contact-section {
+    #contact-us-section .contact-section {
         height: 980px;
     }
-    .form-area .form-wrap {
+    #contact-us-section .form-area .form-wrap {
         top: -86%;
         width: 96%;
     }
-    .contact-area .contact-info {
+    #contact-us-section .contact-area .contact-info {
         width: 80%;
         margin-left: 1rem;
     }
-    .form-wrap .title h1 {
+    #contact-us-section .form-wrap .title h1 {
         font-size: 2rem;
     }
-    .contact-info>h2 {
+    #contact-us-section .contact-info>h2 {
         font-size: 1.6rem;
     }
-    .contact-info>div>p {
+    #contact-us-section .contact-info>div>p {
         font-size: 1rem;
     }
-    .contact-info>div>span {
+    #contact-us-section .contact-info > div > span {
         font-size: 1.2rem;
     }
     .input-area label {

@@ -4,35 +4,6 @@
     box-sizing: 0;
     font-family: 'Josefin Sans', sans-serif;
 }
-
-/* THIS ROOTS INDICATES THE SOME COLORS IN THE CUSTOMER REVIEW */
-
-:root {
-    --color-primary: #316131;
-   
-    --color-light-1: #fff;
-    --color-light-2: #eff;
-    --color-light-3: #eee;
-    --color-light-4: #ddd;
-    --color-light-5: #ccc;
-
-    --color-light-gray: silver;
-
-    --color-gray-1: #999;
-    --color-gray-2: gray;
-
-    --color-dark-1: #111;
-    --color-dark-2: #222;
-    --color-dark-3: #333;
-    --color-dark-4: #444;
-    --color-dark-5: #555;
-
-    --purple-dark-1: #211e25;
-    --purple-dark-2: #343236;
-
-    --color-dark-blue: #2e2e3f;
-}
-
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -1753,14 +1724,12 @@ body {
 /* ---------------------------CALL TO ACTION START--------------------------- */
 /* ---------------------------CALL TO ACTION START--------------------------- */
 /* ---------------------------CALL TO ACTION START--------------------------- */
-
-.call-to-action {
+#call-to-action-section .call-to-action {
     height: auto;
     width: 100%;
-    background: var(--color-light-1);
+    background: white;
 }
-
-.call-to-action-wrap {
+#call-to-action-section .call-to-action-wrap {
     padding: 4rem 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1779,65 +1748,63 @@ body {
     background-size: cover;
     background-position: center;
 }
-
-.call-to-action-image {
+#call-to-action-section .call-to-action-image {
     height: 420px;
     -ms-flex-preferred-size: 500px;
     flex-basis: 500px;
-    border: 1px solid var(--color-light-5);
+    border: 1px solid white;
 }
-
-.cta-image-content {
+#call-to-action-section .cta-image-content {
     position: relative;
     height: 100%;
     width: 100%;
-    border: 3px solid var(--color-light-1);
+    border: 3px solid white;
     border-radius: 0.2rem;
-    -webkit-box-shadow: 0.4rem 0.4rem 1rem var(--color-dark-5);
-    box-shadow: 0.4rem 0.4rem 1rem var(--color-dark-5);
+    -webkit-box-shadow: 0.4rem 0.4rem 1rem black;
+    box-shadow: 0.4rem 0.4rem 1rem black;
 }
-
-.cta-image-content img {
+#call-to-action-section .cta-image-content img {
     height: 100%;
     width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
 }
-
-.call-to-action-details {
+#call-to-action-section .call-to-action-details {
     padding-left: 4rem;
     width: 50%;
 }
-
-.cta-save-per {
+#call-to-action-section .cta-save-per {
     color: crimson;
     font-size: 2.4rem;
     font-weight: 600;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
 }
-
-.cta-offer-title,
-.cta-offer-price {
-    color: var(--color-primary);
+#call-to-action-section .cta-offer-title, .cta-offer-price {
+    color: #316131;
     font-size: 4rem;
     padding-top: 1rem;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
 }
-
-.cta-offer-price {
+#call-to-action-section .cta-offer-price {
     cursor: pointer;
     text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
 }
-
-.cta-offer-msg {
+#call-to-action-section .cta-offer-msg {
     position: relative;
-    color: var(--color-dark-3);
+    color: #333333;
     font-size: 1.8rem;
     font-weight: 600;
     text-transform: uppercase;
     padding-top: 1.4rem;
     display: inline-block;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
 }
-
-.cta-offer-msg::before {
+#call-to-action-section .cta-offer-msg::before {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -1846,14 +1813,12 @@ body {
     width: 100%;
     background: rgb(255, 0, 0, 0.4);
 }
-
-.cta-product-type {
+#call-to-action-section .cta-product-type {
     display: none;
 }
-
-.cta-button {
+#call-to-action-section .cta-button {
     margin: 2rem 0 0 0.4rem;
-    color: var(--color-light-1);
+    color: white;
     font-size: 1.6rem;
     height: 3.6rem;
     width: 10rem;
@@ -1863,12 +1828,254 @@ body {
     border-radius: 0.1rem;
     -webkit-animation-delay: 0.5s;
     animation-delay: 0.5s;
-    background: var(--color-primary);
+    background: #316131;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
 }
-
-
 /* ---------------------------CALL TO ACTION END--------------------------- */
 /* ---------------------------CALL TO ACTION END--------------------------- */
 /* ---------------------------CALL TO ACTION END--------------------------- */
 
 
+
+
+/* ---------------------------CONTACT US SECTION START--------------------------- */
+/* ---------------------------CONTACT US SECTION START--------------------------- */
+/* ---------------------------CONTACT US SECTION START--------------------------- */
+#contact-us-section .contact-section {
+    height: 800px;
+    width: 100%;
+}
+#contact-us-section .contact-section .image-area {
+    height: 50%;
+    width: 100%;
+    background: -o-linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), 
+    url('img/background/contact-bg.jpg');
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), 
+    url('img/background/contact-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#contact-us-section .contact-section .form-area {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    background: white;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#contact-us-section .form-area .form-wrap {
+    position: absolute;
+    top: -78%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 620px;
+    width: 1120px;
+    background: url('img/background/contact.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.2rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 0 0.4rem 0 gray;
+    box-shadow: 0 0 0.4rem 0 gray;
+}
+#contact-us-section .form-wrap .title {
+    padding-top: 2.4rem;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#contact-us-section .form-wrap .title h1 {
+    color: #61790a;
+    font-size: 2.6rem;
+    text-align: center;
+}
+#contact-us-section .form-wrap .contact-area {
+    padding-top: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#contact-us-section .contact-area .contact-info {
+    width: 35%;
+    height: 100%;
+    margin-left: 6rem;
+}
+#contact-us-section .contact-info > h2 {
+    padding-top: 0.2rem;
+    margin-bottom: 1.4rem;
+    color: #61790a;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#contact-us-section .contact-info > div {
+    margin-bottom: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+#contact-us-section .contact-info > div > p {
+    color: #333333;
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#contact-us-section .contact-info > div > span {
+    color: #61790a;
+    font-size: 2rem;
+    margin-right: 0.8rem;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#contact-us-section .contact-area .contact-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    padding: 0 3rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#contact-us-section .contact-form .name-field {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+#contact-us-section .name-field .input-area {
+    width: 48%;
+}
+#contact-us-section .contact-form .input-area {
+    position: relative;
+    margin-bottom: 2rem;
+}
+#contact-us-section .input-area input {
+    padding: 0 1rem;
+    height: 3rem;
+    width: 100%;
+    color: #333333;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    border-radius: 0.2rem;
+    background: white;
+    -webkit-box-shadow: 0 0 0.1rem #666;
+    box-shadow: 0 0 0.1rem #666;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#contact-us-section .input-area label {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #333333;
+    font-size: 1.2rem;
+    font-weight: 500;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#contact-us-section .input-area input:focus~label, .input-area input:valid~label {
+    padding: 0.2rem 0.4rem;
+    top: -0.7rem;
+    left: 0;
+    font-size: 1rem;
+    color: white;
+    background: rgb(10, 10, 10);
+    border-radius: 0.1rem;
+}
+#contact-us-section .contact-form .message-area {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    height: 200px;
+    width: 100%;
+}
+#contact-us-section .message-area textarea {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 1rem;
+    resize: vertical;
+    color: #333333;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 0 0.1rem #666;
+    box-shadow: 0 0 0.1rem #666;
+    background: white;
+    border: 2px solid none;
+    border-radius: 0.2rem;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#contact-us-section .message-area label {
+    position: absolute;
+    color: #333333;
+    font-weight: 500;
+    font-size: 1.2rem;
+    top: 1rem;
+    left: 1rem;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#contact-us-section .message-area textarea:focus~label, .message-area textarea:valid~label {
+    top: -1.4rem;
+    left: 0;
+    color: white;
+    padding: 0.2rem 0.4rem;
+    background: rgb(10, 10, 10);
+    border-radius: 0.1rem;
+    font-size: 1rem;
+}
+#contact-us-section .contact-form .btn {
+    margin-top: 1.8rem;
+}
+#contact-us-section .contact-form .btn button {
+    height: 3.2rem;
+    width: 8rem;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 1.2rem;
+    background: #61790a;
+    border-radius: 0.1rem;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
+#contact.menu-active {
+    padding-top: 2rem;
+}
+/* ---------------------------CONTACT US SECTION END--------------------------- */
+/* ---------------------------CONTACT US SECTION END--------------------------- */
+/* ---------------------------CONTACT US SECTION END--------------------------- */
