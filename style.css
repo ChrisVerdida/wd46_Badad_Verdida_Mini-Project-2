@@ -54,6 +54,7 @@ body {
     transition: all 0.5s ease;
     color: #333333 !important;
     font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
 }
 #header-section .nav-link:hover {
     color: orangered !important;
@@ -99,6 +100,78 @@ body {
 /* ---------------------------HEADER SECTION END--------------------------- */
 /* ---------------------------HEADER SECTION END--------------------------- */
 /* ---------------------------HEADER SECTION END--------------------------- */
+
+
+
+
+/* ---------------------------LOGIN AND SIGNUP MODAL SECTION START--------------------------- */
+/* ---------------------------LOGIN AND SIGNUP MODAL SECTION START--------------------------- */
+/* ---------------------------LOGIN AND SIGNUP MODAL SECTION START--------------------------- */
+#signin-and-signup-modal-section .social-login {
+    text-align: center;
+}
+#signin-and-signup-modal-section .social-log {
+    list-style: none;
+    display: flex;
+    margin-left: 100px;
+}
+#signin-and-signup-modal-section .fa-brands {
+    font-size: 2rem;
+    margin-left: 25px;
+}
+#signin-and-signup-modal-section .social-login > p {
+    color: #8c8c8c;
+    font-family: 'Work Sans', sans-serif;
+}
+#signin-and-signup-modal-section .signin-modal .nav-tabs .nav-link {
+    background-color: #e5e5e5;
+    border-radius: 0;
+    font-weight: 600;
+    border-color: #fff !important;
+}
+#signin-and-signup-modal-section .signin-modal .nav-tabs .nav-link.active {
+    background-color: #fff;
+}
+#signin-and-signup-modal-section .signin-modal .nav-tabs .nav-item {
+    width: 50%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+#signin-and-signup-modal-section .nav-link {
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
+}
+#signin-and-signup-modal-section .signin-modal .nav-tabs {
+    border-bottom: none;
+}
+#signin-and-signup-modal-section .btn {
+    width: 100%;
+    font-family: 'Work Sans', sans-serif;
+}
+#signin-and-signup-modal-section .signin-tab {
+    padding: 0 3rem;
+}
+#signin-and-signup-modal-section .signin-tab .form-control {
+    font-size: 12px;
+    color: #8c8c8c;
+    height: 40px;
+}
+#signin-and-signup-modal-section .signin-link {
+    text-align: center;
+    color: #8c8c8c;
+    margin-top: 0.5rem;
+}
+#signin-and-signup-modal-section .forgot-link {
+    text-align: right;
+    font-size: 12px;
+}
+#signin-and-signup-modal-section .forgot-link > a {
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+/* ---------------------------LOGIN AND SIGNUP MODAL SECTION END--------------------------- */
+/* ---------------------------LOGIN AND SIGNUP MODAL SECTION END--------------------------- */
+/* ---------------------------LOGIN AND SIGNUP MODAL SECTION END--------------------------- */
 
 
 

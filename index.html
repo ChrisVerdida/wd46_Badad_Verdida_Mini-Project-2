@@ -76,10 +76,12 @@
                                     <a class="nav-link" href="#"><i class="fa-solid fa-phone"></i></a>
                                 </li>
                                 <li class="social-media">
-                                    <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></i></a>
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
                                 </li>
                                 <li class="social-media">
-                                    <a class="nav-link" href="#"><i class="fa-solid fa-user"></i></i></i></a>
+                                    <a class="nav-link" data-bs-toggle="modal" 
+                                    data-bs-target="#signin-and-signup-modal">
+                                    <i class="fa-solid fa-user"></i></a>
                                 </li>
                             </div>
                         </ul>
@@ -91,7 +93,91 @@
         <!-------------------------HEADER SECTION END------------------------------------->
         <!-------------------------HEADER SECTION END------------------------------------->
 
+
+
+
+        <!-------------------------SIGNIN AND SIGNUP MODAL SECTION START------------------------------------->
+        <!-------------------------SIGNIN AND SIGNUP MODAL SECTION START------------------------------------->
+        <!-------------------------SIGNIN AND SIGNUP MODAL SECTION START------------------------------------->
+        <div id="signin-and-signup-modal-section">
+            <div class="modal fade" id="signin-and-signup-modal" tabindex="-1" aria-labelledby="exampleModalLabel" 
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" 
+                            aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body signin-modal">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" 
+                                    data-bs-target="#signup" type="button" role="tab" aria-controls="home" 
+                                    aria-selected="true">Sign Up</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" 
+                                    data-bs-target="#signin" type="button" role="tab" aria-controls="profile" 
+                                    aria-selected="false">Sign In</button>
+                                </li>
+                            </ul>
+                            <div class="social-login">
+                                <p>with your social network</p>
+                                <ul class="social-log">
+                                    <li><i class="fa-brands fa-facebook"></i></li>
+                                    <li><i class="fa-brands fa-google"></i></li>
+                                    <li><i class="fa-brands fa-twitter"></i></li>
+                                </ul>
+                                <p>or</p>
+                            </div>
+                            <div class="tab-content signin-tab" id="myTabContent">
+                                <div class="tab-pane fade show active" id="signup" role="tabpanel" 
+                                aria-labelledby="home-tab">
+                                    <form>
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="Text" 
+                                            aria-describedby="textHelp" placeholder="Username"> 
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="email" class="form-control" id="Email" 
+                                            aria-describedby="emailHelp" placeholder="Email">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="password" class="form-control" 
+                                            id="Password" placeholder="Password">
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Create An Account</button>
+                                        <p class="signin-link">Already have an Account ? <a href="#">Sign In</a></p>
+                                    </form>
+                                </div>
+                                <div class="tab-pane fade" id="signin" role="tabpanel" 
+                                aria-labelledby="profile-tab">
+                                    <form>
+                                        <div class="mb-3">
+                                            <input type="text" class="form-control" id="Text" 
+                                            aria-describedby="textHelp" placeholder="Username">
+                                        </div>
+                                        <div class="mb-3">
+                                            <input type="password" class="form-control" 
+                                            id="Password" placeholder="Password">
+                                        </div>
+                                        <p class="forgot-link"><a href="#">Forgot Your Password ?</a></p>
+                                        <button type="submit" class="btn btn-primary">Login</button>
+                                        <p class="signin-link">Don't have an Account ? <a href="#">Sign Up</a></p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-------------------------LOGIN AND SIGNUP MODAL SECTION END------------------------------------->
+        <!-------------------------LOGIN AND SIGNUP MODAL SECTION END------------------------------------->
+        <!-------------------------LOGIN AND SIGNUP MODAL SECTION END------------------------------------->
         
+
 
 
         <!-------------------------CAROUSEL SECTION START------------------------------------->
@@ -160,7 +246,6 @@
                     </div>
                     <div class="carousel-item c-item">
                         <img src="img/background/about-3.png" class="d-block w-100 c-img" alt="carousel-image">
-                        <img src="#" class="d-block w-100 c-img" alt="...">
                         <div class="carousel-caption top-0 mt-4">
                             <p class="mt-5 fs-3 fw-bolder text-capitalize">Get your daily needs</p>
                             <h1 class="display-1 fw-bolder text-capitalize">easy and instant</h1>
@@ -169,7 +254,6 @@
                     </div>
                     <div class="carousel-item c-item">
                         <img src="img/background/about-4.jpg" class="d-block w-100 c-img" alt="carousel-image">
-                        <img src="#" class="d-block w-100 c-img" alt="...">
                         <div class="carousel-caption top-0 mt-4">
                             <p class="mt-5 fs-3 fw-bolder text-capitalize">Try fresh fruits for better</p>
                             <h1 class="display-1 fw-bolder text-capitalize">healthy lifestyle</h1>
@@ -178,7 +262,6 @@
                     </div>
                     <div class="carousel-item c-item">
                         <img src="img/background/about-5.jpg" class="d-block w-100 c-img" alt="carousel-image">
-                        <img src="#" class="d-block w-100 c-img" alt="...">
                         <div class="carousel-caption top-0 mt-4">
                             <p class="mt-5 fs-3 fw-bolder text-capitalize">Get upto 50% discount</p>
                             <h1 class="display-1 fw-bolder text-capitalize">on every products</h1>
@@ -1037,7 +1120,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/vegetables/bean-seed.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Bean Seed</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 64Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1049,7 +1133,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/vegetables/broccoli.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Broccoli</h5>
+                                    <h6 class="price">Price: 60Tk/pcs 49Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1061,7 +1146,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/vegetables/cabbage.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Cabbage</h5>
+                                    <h6 class="price">Price: 40Tk/kg 33Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1073,7 +1159,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/vegetables/capsicum.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Capsicum</h5>
+                                    <h6 class="price">Price: 60Tk/kg 46Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1091,7 +1178,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/vegetables/carrot.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Carrot</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 62Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1103,7 +1191,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/vegetables/cauliflower.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Cauliflower</h5>
+                                    <h6 class="price">Price: 30Tk/kg 24Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1115,7 +1204,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/vegetables/chili-local.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Chili Local</h5>
+                                    <h6 class="price">Price: 40Tk/kg 35Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1127,7 +1217,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/vegetables/chili.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Chili</h5>
+                                    <h6 class="price">Price: 50Tk/kg 45Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1145,7 +1236,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/vegetables/cucumber.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Cucumber</h5>
+                                    <h6 class="price">Price: 120Tk/kg 98Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1157,7 +1249,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/vegetables/lemon.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Lemon</h5>
+                                    <h6 class="price">Price: 60Tk/kg 46Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1169,7 +1262,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/vegetables/long-bean.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Long Bean</h5>
+                                    <h6 class="price">Price: 40Tk/kg 31Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1181,7 +1275,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/vegetables/motorshuti.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Motorshuti</h5>
+                                    <h6 class="price">Price: 140Tk/kg 118Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1205,7 +1300,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/fruits/apple.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Fresh Apple</h5>
+                                    <h6 class="price">Price: 160Tk/kg 131Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1217,7 +1313,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/fruits/blueberry.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Blueberry</h5>
+                                    <h6 class="price">Price: 140Tk/kg 112Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1229,7 +1326,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/fruits/cherry.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Cherry</h5>
+                                    <h6 class="price">Price: 160Tk/kg 131Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1241,7 +1339,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/fruits/date.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Date</h5>
+                                    <h6 class="price">Price: 180Tk/kg 137Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1259,7 +1358,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/fruits/grape-black.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Grape Black</h5>
+                                    <h6 class="price">Price: 130Tk/kg 101Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1271,7 +1371,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/fruits/grape.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Grape</h5>
+                                    <h6 class="price">Price: 180Tk/pcs 144Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1283,7 +1384,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/fruits/kiwi.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Kiwi</h5>
+                                    <h6 class="price">Price: 130Tk/kg 68Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1295,7 +1397,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/fruits/lemon.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Lemon</h5>
+                                    <h6 class="price">Price: 160Tk/kg 93Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1313,7 +1416,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/fruits/local-orange.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Local Orange</h5>
+                                    <h6 class="price">Price: 180Tk/kg 115Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1325,7 +1429,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/fruits/mango.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Mango</h5>
+                                    <h6 class="price">Price: 120Tk/kg 91Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1337,7 +1442,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/fruits/orange-green.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Orange Green</h5>
+                                    <h6 class="price">Price: 150Tk/kg 117Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1349,7 +1455,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/fruits/orange.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Orange</h5>
+                                    <h6 class="price">Price: 140Tk/kg 118Tk/kg</h6>
                                 </div>
                             </div>
                         </div>
@@ -1373,7 +1480,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/meat&fish/beef.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Beef</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1385,7 +1493,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/meat&fish/buffalo.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Buffalo</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1397,7 +1506,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/meat&fish/camel.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Camel</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1409,7 +1519,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/meat&fish/chicken.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Chicken</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1427,7 +1538,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/meat&fish/common-carp.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Common Carp</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1439,7 +1551,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/meat&fish/mutton.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Mutton</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1451,7 +1564,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/meat&fish/shrimp.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Shrimp</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1463,7 +1577,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/meat&fish/sprat.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Sprat</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1487,7 +1602,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/eggs/chicken-egg.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Chicken Egg</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1499,7 +1615,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/eggs/duck-egg.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Duck Egg</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1511,7 +1628,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/eggs/koyel-egg.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Koyel Egg</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1535,7 +1653,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/beverages/coffe.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Coffe</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1547,7 +1666,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/beverages/green-tea.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Green Tea</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1559,7 +1679,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/beverages/tea.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Tea</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1583,7 +1704,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/spices/cardamom.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Cardamom</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1595,7 +1717,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/spices/clove.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Clove</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1607,7 +1730,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/spices/mix-spice.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Mix Spice</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1631,7 +1755,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/dried fruits/almond.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Almond</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1643,7 +1768,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/dried fruits/cashew-nut.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Cashew Nut</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1655,7 +1781,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/dried fruits/dates.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Dates</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
@@ -1667,7 +1794,8 @@
                                 </div>
                                 <img class="card-img-top" src="img/dried fruits/raisins.jpg" alt="featured-products">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title">Raisins</h5>
+                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
                                 </div>
                             </div>
                         </div>
