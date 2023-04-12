@@ -176,6 +176,17 @@ body {
 
 
 
+/* ---------------------------HOTLINE AND EMAIL MODAL SECTION START--------------------------- */
+/* ---------------------------HOTLINE AND EMAIL MODAL SECTION START--------------------------- */
+/* ---------------------------HOTLINE AND EMAIL MODAL SECTION START--------------------------- */
+
+/* ---------------------------HOTLINE AND EMAIL MODAL SECTION END--------------------------- */
+/* ---------------------------HOTLINE AND EMAIL MODAL SECTION END--------------------------- */
+/* ---------------------------HOTLINE AND EMAIL MODAL SECTION END--------------------------- */
+
+
+
+
 /* ---------------------------CAROUSEL SECTION START--------------------------- */
 /* ---------------------------CAROUSEL SECTION START--------------------------- */
 /* ---------------------------CAROUSEL SECTION START--------------------------- */
@@ -2172,6 +2183,38 @@ body {
 }
 #footer-section footer {
     background-color: #211E25;
+}
+#footer-section .copyright-text {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#footer-section .subscribe-button {
+    background-color: orangered;
+}
+#footer-section .font-styling {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+#footer-section .font-styling > p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+}
+#footer-section .text-links > li > a {
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+#footer-section .fruit-links > li > a {
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+#footer-section .text-quick-links > li > a {
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+}
+#footer-section .text-quick-links > li > a:hover {
+    color: orange !important;
+}
+#footer-section .link-title {
+    border-bottom: 5px solid #316131;
 }
 /* ---------------------------FOOTER SECTION END--------------------------- */
 /* ---------------------------FOOTER SECTION END--------------------------- */
