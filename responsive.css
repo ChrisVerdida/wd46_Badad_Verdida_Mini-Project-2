@@ -50,6 +50,12 @@
         width: 90%;
         height: 620px;
     }
+    #featured-products-and-add-to-cart-section #toggle-bar {
+        display: block;
+    }
+    #featured-products-and-add-to-cart-section .cart-content .cart-image-area {
+        width: 44%;
+    }
 }
 @media screen and (max-width: 1280px) {
     #card-text-section .new-arrivals-products {
@@ -62,6 +68,12 @@
 @media screen and (max-width: 1240px) {
     #call-to-action-section .call-to-action-details {
         padding-left: 2.4rem;
+    }
+    #featured-products-and-add-to-cart-section .shopping-details-wrap {
+        overflow-x: auto;
+    }
+    #featured-products-and-add-to-cart-section .shopping-details-header, .shopping-details {
+        width: 1480px;
     }
 }
 @media screen and (max-width: 1189px) {
@@ -373,6 +385,17 @@
     #big-offer-soon-section .countdown-wrap .timer {
         margin: 2rem;
     }
+    #featured-products-and-add-to-cart-section .cart-contents-area .cart-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: auto;
+    }
+    #featured-products-and-add-to-cart-section .cart-content .cart-image-area {
+        height: 380px;
+        width: 100%;
+    }
 }
 @media screen and (max-width: 920px) {
     #featured-products-section .row {
@@ -584,6 +607,84 @@
     #big-offer-soon-section .hot-deals {
         height: 1420px;
     }
+    #featured-products-and-add-to-cart-section .featured-products {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    #featured-products-and-add-to-cart-section .cart-content .cart-image-area {
+        height: 260px;
+        width: 100%;
+    }
+    #featured-products-and-add-to-cart-section .shopping-cart-wrap .product-cart-menu {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    #featured-products-and-add-to-cart-section .product-cart-menu .cart-menu-items {
+        margin-top: 1rem;
+    }
+    #featured-products-and-add-to-cart-section .shopping-cart-area .shopping-cart-wrap {
+        padding: 3rem 1rem;
+    }
+    #featured-products-and-add-to-cart-section .cart-menu-items h2 {
+        padding: 0.6rem;
+        color: #fff;
+        font-size: 1rem;
+        background: #2e2e3f;
+        border-radius: 0.1rem;
+    }
+    #featured-products-and-add-to-cart-section .cart-menu-items #selected-products.active-cart-menu {
+        color: #fff;
+        background: -o-linear-gradient(45deg, #4f6b16 20%, green, green);
+        background: linear-gradient(45deg, #4f6b16 20%, green, green);
+    }
+    #featured-products-and-add-to-cart-section .cart-menu-items #favorite-products.active-cart-menu {
+        color: #fff;
+        background: -o-linear-gradient(45deg, #4f6b16 20%, green, green);
+        background: linear-gradient(45deg, #4f6b16 20%, green, green);
+    }
+    #featured-products-and-add-to-cart-section .cart-contents-header {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    #featured-products-and-add-to-cart-section .buying-product-title.acvie-buying-title {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        margin-top: 0.6rem;
+    }
+    #featured-products-and-add-to-cart-section .buying-product-title .buy-items-button button {
+        margin-top: 0.6rem;
+    }
+    #featured-products-and-add-to-cart-section .cart-content .cart-details h2 {
+        font-size: 1.6rem;
+    }
+    #featured-products-and-add-to-cart-section .cart-content .cart-details p {
+        font-size: 1.2rem;
+    }
 }
 @media screen and (max-width: 640px) {
     #services-section .service-image-wrap {
@@ -695,6 +796,12 @@
         margin-top: 1.4rem;
         padding: 0 1.2rem;
     }
+    #featured-products-and-add-to-cart-section .section-wrap {
+        padding: 2rem 1rem;
+    }
+    #featured-products-and-add-to-cart-section .icon-links {
+        margin-right: 0.4rem;
+    }
 }
 @media screen and (max-width: 440px) {
     #customer-review-section .customer-review .review-items {
@@ -785,6 +892,47 @@
         width: 100%;
         padding: 1rem 1rem 0 1rem;
     }
+    #featured-products-and-add-to-cart-section .section-wrap {
+        padding-top: 1.4rem;
+    }
+    #featured-products-and-add-to-cart-section .section-title h1 {
+        font-size: 1.6rem;
+    }
+    #featured-products-and-add-to-cart-section .icon-links {
+        margin-right: 0.6rem;
+    }
+    #featured-products-and-add-to-cart-section .icon-links div {
+        margin-right: 1.1rem;
+    }
+    #featured-products-and-add-to-cart-section .icon-links div span {
+        font-size: 1rem;
+    }
+    #featured-products-and-add-to-cart-section #toggle-bar {
+        height: 1.4rem;
+        width: 1.2rem;
+    }
+    #featured-products-and-add-to-cart-section #toggle-bar .toggler {
+        height: 2px;
+    }
+    #featured-products-and-add-to-cart-section #toggle-bar .toggler::before {
+        height: 2px;
+    }
+    #featured-products-and-add-to-cart-section #toggle-bar .toggler::after {
+        height: 2px;
+    }
+    #featured-products-and-add-to-cart-section .buying-details-wrap .shop-title {
+        padding-top: 2.4rem;
+    }
+    #featured-products-and-add-to-cart-section .buying-details-area .buying-details-wrap {
+        padding: 2rem 0.8rem;
+    }
+    #featured-products-and-add-to-cart-section .close-buy-area {
+        top: 0.6rem;
+        right: 1rem;
+    }
+    #featured-products-and-add-to-cart-section .buying-details-footer .calculate-buying-details div {
+        width: 100%;
+    }
 }
 @media screen and (max-width: 370px) {
     #great-deals-section .great-deals-timer .gd-timer {
@@ -796,6 +944,38 @@
     }
     #customer-review-section .customer-review .review-items {
         margin-top: 0.4rem;
+    }
+    #featured-products-and-add-to-cart-section .product-cart-menu .cart-menu-items {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    #featured-products-and-add-to-cart-section .cart-menu-items h2 {
+        margin-top: 0.8rem;
+    }
+    #featured-products-and-add-to-cart-section .cart-content .cart-details h2 {
+        font-size: 1.4rem;
+    }
+    #featured-products-and-add-to-cart-section .cart-content .cart-details p {
+        font-size: 1rem;
+    }
+    #featured-products-and-add-to-cart-section .cart-content .cart-details button {
+        font-size: 0.8rem;
+        padding: 0.6rem 0.8rem;
+    }
+    #featured-products-and-add-to-cart-section .cart-contents-header .total-cart-items p {
+        font-size: 1.2rem;
+    }
+    #featured-products-and-add-to-cart-section .total-buying-item p {
+        font-size: 1.2rem;
+    }
+    #featured-products-and-add-to-cart-section .calculate-buying-details div h2 {
+        width: 150px;
+        font-size: 1.2rem;
+    }
+    #featured-products-and-add-to-cart-section .calculate-buying-details div p {
+        font-size: 1.2rem;
     }
 }
 @media screen and (max-width: 340px) {
@@ -824,5 +1004,11 @@
     }
     #contact-us-section .contact-info > div > span {
         font-size: 1.2rem;
+    }
+    #featured-products-and-add-to-cart-section .icon-links div {
+        margin-right: 1rem;
+    }
+    #featured-products-and-add-to-cart-section .section-wrap {
+        padding: 2rem 0.4rem;
     }
 }
