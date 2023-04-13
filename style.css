@@ -179,7 +179,26 @@ body {
 /* ---------------------------HOTLINE AND EMAIL MODAL SECTION START--------------------------- */
 /* ---------------------------HOTLINE AND EMAIL MODAL SECTION START--------------------------- */
 /* ---------------------------HOTLINE AND EMAIL MODAL SECTION START--------------------------- */
-
+#hotline-and-email-modal-section .modal-body {
+    background-color: #EEFFFF;
+}
+#hotline-and-email-modal-section .modal-header {
+    background-color: #DC143C;
+    border-radius: none;
+}
+#hotline-and-email-modal-section .fa-headset {
+    font-size: 7rem;
+    margin-left: 175px;
+    color: white;
+}
+#hotline-and-email-modal-section .hotline {
+    font-weight: bolder;
+    font-family: 'Work Sans', sans-serif;
+}
+#hotline-and-email-modal-section .email {
+    font-weight: bolder;
+    font-family: 'Work Sans', sans-serif;
+}
 /* ---------------------------HOTLINE AND EMAIL MODAL SECTION END--------------------------- */
 /* ---------------------------HOTLINE AND EMAIL MODAL SECTION END--------------------------- */
 /* ---------------------------HOTLINE AND EMAIL MODAL SECTION END--------------------------- */
@@ -967,6 +986,27 @@ body {
 }
 #featured-products-section .card > img {
     height: 200px;
+}
+#featured-products-section .btn {
+    background-color: green;
+    color: white;
+    margin-top: 15px;
+    margin-left: 47px;
+}
+#featured-products-section .fa-cart-plus {
+    color: white;
+}
+#featured-products-section .card-title {
+    color: #211E27;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+#featured-products-section .price {
+    color: #211E27;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    text-align: center;
 }
 /* ---------------------------FEATURED PRODUCTS SECTION END--------------------------- */
 /* ---------------------------FEATURED PRODUCTS SECTION END--------------------------- */
@@ -2215,6 +2255,18 @@ body {
 }
 #footer-section .link-title {
     border-bottom: 5px solid #316131;
+}
+#footer-section .payments {
+    display: flex;
+    flex-wrap: wrap;
+    width: 240px;
+    margin-left: 33px;
+}
+#footer-section .payments > li {
+    margin-left: 15px;
+}
+#footer-section .payment-icons {
+    font-size: 3.20rem;
 }
 /* ---------------------------FOOTER SECTION END--------------------------- */
 /* ---------------------------FOOTER SECTION END--------------------------- */

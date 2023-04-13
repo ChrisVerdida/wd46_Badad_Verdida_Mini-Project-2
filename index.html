@@ -74,10 +74,11 @@
                             </form>
                             <div class="socmeds">
                                 <li class="social-media">
-                                    <a class="nav-link" href="#"><i class="fa-solid fa-phone"></i></a>
+                                    <a class="nav-link" data-bs-toggle="modal" 
+                                    data-bs-target="#hotline-and-email-modal"><i class="fa-solid fa-phone"></i></a>
                                 </li>
                                 <li class="social-media">
-                                    <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                    <a class="nav-link" href="#"><i class="fa-solid fa-cart-arrow-down"></i></i></i></a>
                                 </li>
                                 <li class="social-media">
                                     <a class="nav-link" data-bs-toggle="modal" 
@@ -185,7 +186,29 @@
         <!-------------------------HOTLINE AND EMAIL MODAL SECTION START------------------------------------->
         <!-------------------------HOTLINE AND EMAIL MODAL SECTION START------------------------------------->
         <div id="hotline-and-email-modal-section">
-
+            <div class="modal fade" id="hotline-and-email-modal" tabindex="-1" aria-labelledby="exampleModalLabel" 
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+                        <div class="modal-body">
+                            <div class="hotline-email-background">
+                                <div class="hotline">
+                                    <p>Hotline:</p>
+                                    <p>+88 0123-456-789</p>
+                                    <p>+88 0123-456-789</p>
+                                </div>
+                                <div class="email">
+                                    <p>Email:</p>
+                                    <p>info@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-------------------------HOTLINE AND EMAIL MODAL SECTION END------------------------------------->
         <!-------------------------HOTLINE AND EMAIL MODAL SECTION END------------------------------------->
@@ -700,9 +723,6 @@
                     </div>
                 </div>
             </div>
-
-
-
         </section>
         <!-------------------------SERVICES SECTION END------------------------------------->
         <!-------------------------SERVICES SECTION END------------------------------------->
@@ -1135,7 +1155,9 @@
                                 <img class="card-img-top" src="img/vegetables/bean-seed.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Bean Seed</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 64Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>64Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1148,7 +1170,9 @@
                                 <img class="card-img-top" src="img/vegetables/broccoli.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Broccoli</h5>
-                                    <h6 class="price">Price: 60Tk/pcs 49Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>60Tk/pcs</del> <u>49Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1161,7 +1185,9 @@
                                 <img class="card-img-top" src="img/vegetables/cabbage.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Cabbage</h5>
-                                    <h6 class="price">Price: 40Tk/kg 33Tk/kg</h6>
+                                    <h6 class="price">Price: <del>40Tk/kg</del> <u>33Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1174,7 +1200,9 @@
                                 <img class="card-img-top" src="img/vegetables/capsicum.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Capsicum</h5>
-                                    <h6 class="price">Price: 60Tk/kg 46Tk/kg</h6>
+                                    <h6 class="price">Price: <del>60Tk/kg</del> <u>46Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1193,7 +1221,9 @@
                                 <img class="card-img-top" src="img/vegetables/carrot.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Carrot</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 62Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>62Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1206,7 +1236,9 @@
                                 <img class="card-img-top" src="img/vegetables/cauliflower.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Cauliflower</h5>
-                                    <h6 class="price">Price: 30Tk/kg 24Tk/kg</h6>
+                                    <h6 class="price">Price: <del>30Tk/kg</del> <u>24Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1219,7 +1251,9 @@
                                 <img class="card-img-top" src="img/vegetables/chili-local.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Chili Local</h5>
-                                    <h6 class="price">Price: 40Tk/kg 35Tk/kg</h6>
+                                    <h6 class="price">Price: <del>40Tk/kg</del> <u>35Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1232,7 +1266,9 @@
                                 <img class="card-img-top" src="img/vegetables/chili.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Chili</h5>
-                                    <h6 class="price">Price: 50Tk/kg 45Tk/kg</h6>
+                                    <h6 class="price">Price: <del>50Tk/kg</del> <u>45Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1251,7 +1287,9 @@
                                 <img class="card-img-top" src="img/vegetables/cucumber.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Cucumber</h5>
-                                    <h6 class="price">Price: 120Tk/kg 98Tk/kg</h6>
+                                    <h6 class="price">Price: <del>120Tk/kg</del> <u>98Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1264,7 +1302,9 @@
                                 <img class="card-img-top" src="img/vegetables/lemon.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Lemon</h5>
-                                    <h6 class="price">Price: 60Tk/kg 46Tk/kg</h6>
+                                    <h6 class="price">Price: <del>60Tk/kg</del> <u>46Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1277,7 +1317,9 @@
                                 <img class="card-img-top" src="img/vegetables/long-bean.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Long Bean</h5>
-                                    <h6 class="price">Price: 40Tk/kg 31Tk/kg</h6>
+                                    <h6 class="price">Price: <del>40Tk/kg</del> <u>31Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1290,7 +1332,9 @@
                                 <img class="card-img-top" src="img/vegetables/motorshuti.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Motorshuti</h5>
-                                    <h6 class="price">Price: 140Tk/kg 118Tk/kg</h6>
+                                    <h6 class="price">Price: <del>140Tk/kg</del> <u>118Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1315,7 +1359,9 @@
                                 <img class="card-img-top" src="img/fruits/apple.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Fresh Apple</h5>
-                                    <h6 class="price">Price: 160Tk/kg 131Tk/kg</h6>
+                                    <h6 class="price">Price: <del>160Tk/kg</del> <u>131Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1328,7 +1374,9 @@
                                 <img class="card-img-top" src="img/fruits/blueberry.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Blueberry</h5>
-                                    <h6 class="price">Price: 140Tk/kg 112Tk/kg</h6>
+                                    <h6 class="price">Price: <del>140Tk/kg</del> <u>112Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1341,7 +1389,9 @@
                                 <img class="card-img-top" src="img/fruits/cherry.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Cherry</h5>
-                                    <h6 class="price">Price: 160Tk/kg 131Tk/kg</h6>
+                                    <h6 class="price">Price: <del>160Tk/kg</del> <u>131Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1354,7 +1404,9 @@
                                 <img class="card-img-top" src="img/fruits/date.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Date</h5>
-                                    <h6 class="price">Price: 180Tk/kg 137Tk/kg</h6>
+                                    <h6 class="price">Price: <del>180Tk/kg</del> <u>137Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1373,7 +1425,9 @@
                                 <img class="card-img-top" src="img/fruits/grape-black.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Grape Black</h5>
-                                    <h6 class="price">Price: 130Tk/kg 101Tk/kg</h6>
+                                    <h6 class="price">Price: <del>130Tk/kg</del> <u>101Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1386,7 +1440,9 @@
                                 <img class="card-img-top" src="img/fruits/grape.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Grape</h5>
-                                    <h6 class="price">Price: 180Tk/pcs 144Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>180Tk/pcs</del> <u>144Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1399,7 +1455,9 @@
                                 <img class="card-img-top" src="img/fruits/kiwi.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Kiwi</h5>
-                                    <h6 class="price">Price: 130Tk/kg 68Tk/kg</h6>
+                                    <h6 class="price">Price: <del>130Tk/kg</del> <u>68Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1412,7 +1470,9 @@
                                 <img class="card-img-top" src="img/fruits/lemon.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Lemon</h5>
-                                    <h6 class="price">Price: 160Tk/kg 93Tk/kg</h6>
+                                    <h6 class="price">Price: <del>160Tk/kg</del> <u>93Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1431,7 +1491,9 @@
                                 <img class="card-img-top" src="img/fruits/local-orange.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Local Orange</h5>
-                                    <h6 class="price">Price: 180Tk/kg 115Tk/kg</h6>
+                                    <h6 class="price">Price: <del>180Tk/kg</del> <u>115Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1444,7 +1506,9 @@
                                 <img class="card-img-top" src="img/fruits/mango.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Mango</h5>
-                                    <h6 class="price">Price: 120Tk/kg 91Tk/kg</h6>
+                                    <h6 class="price">Price: <del>120Tk/kg</del> <u>91Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1457,7 +1521,9 @@
                                 <img class="card-img-top" src="img/fruits/orange-green.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Orange Green</h5>
-                                    <h6 class="price">Price: 150Tk/kg 117Tk/kg</h6>
+                                    <h6 class="price">Price: <del>150Tk/kg</del> <u>117Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1470,7 +1536,9 @@
                                 <img class="card-img-top" src="img/fruits/orange.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Orange</h5>
-                                    <h6 class="price">Price: 140Tk/kg 118Tk/kg</h6>
+                                    <h6 class="price">Price: <del>140Tk/kg</del> <u>118Tk/kg</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1495,7 +1563,9 @@
                                 <img class="card-img-top" src="img/meat&fish/beef.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Beef</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1508,7 +1578,9 @@
                                 <img class="card-img-top" src="img/meat&fish/buffalo.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Buffalo</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1521,7 +1593,9 @@
                                 <img class="card-img-top" src="img/meat&fish/camel.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Camel</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1534,7 +1608,9 @@
                                 <img class="card-img-top" src="img/meat&fish/chicken.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Chicken</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1553,7 +1629,9 @@
                                 <img class="card-img-top" src="img/meat&fish/common-carp.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Common Carp</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1566,7 +1644,9 @@
                                 <img class="card-img-top" src="img/meat&fish/mutton.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Mutton</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1579,7 +1659,9 @@
                                 <img class="card-img-top" src="img/meat&fish/shrimp.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Shrimp</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1592,7 +1674,9 @@
                                 <img class="card-img-top" src="img/meat&fish/sprat.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Sprat</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1617,7 +1701,9 @@
                                 <img class="card-img-top" src="img/eggs/chicken-egg.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Chicken Egg</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1630,7 +1716,9 @@
                                 <img class="card-img-top" src="img/eggs/duck-egg.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Duck Egg</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1643,7 +1731,9 @@
                                 <img class="card-img-top" src="img/eggs/koyel-egg.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Koyel Egg</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1668,7 +1758,9 @@
                                 <img class="card-img-top" src="img/beverages/coffe.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Coffe</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1681,7 +1773,9 @@
                                 <img class="card-img-top" src="img/beverages/green-tea.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Green Tea</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1694,7 +1788,9 @@
                                 <img class="card-img-top" src="img/beverages/tea.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Tea</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1719,7 +1815,9 @@
                                 <img class="card-img-top" src="img/spices/cardamom.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Cardamom</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1732,7 +1830,9 @@
                                 <img class="card-img-top" src="img/spices/clove.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Clove</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1745,7 +1845,9 @@
                                 <img class="card-img-top" src="img/spices/mix-spice.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Mix Spice</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1770,7 +1872,9 @@
                                 <img class="card-img-top" src="img/dried fruits/almond.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Almond</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1783,7 +1887,9 @@
                                 <img class="card-img-top" src="img/dried fruits/cashew-nut.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Cashew Nut</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1796,7 +1902,9 @@
                                 <img class="card-img-top" src="img/dried fruits/dates.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Dates</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -1809,7 +1917,9 @@
                                 <img class="card-img-top" src="img/dried fruits/raisins.jpg" alt="featured-products">
                                 <div class="card-body">
                                     <h5 class="card-title">Raisins</h5>
-                                    <h6 class="price">Price: 80Tk/pcs 59Tk/pcs</h6>
+                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
+                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
+                                    </i> Add to Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -2759,19 +2869,19 @@
                                 <h5 class="text-uppercase link-title">Top Products</h5>
                                 <ul class="list-unstyled mb-0 fruit-links">
                                     <li>
-                                        <a href="#!" class="text-white">Apple</a>
+                                        <a href="#" class="text-white">Apple</a>
                                     </li>
                                     <li>
-                                        <a href="#!" class="text-white">Grapes</a>
+                                        <a href="#" class="text-white">Grapes</a>
                                     </li>
                                     <li>
-                                        <a href="#!" class="text-white">Mangos</a>
+                                        <a href="#" class="text-white">Mangos</a>
                                     </li>
                                     <li>
-                                        <a href="#!" class="text-white">Oranges</a>
+                                        <a href="#" class="text-white">Oranges</a>
                                     </li>
                                     <li>
-                                        <a href="#!" class="text-white">Pineapple</a>
+                                        <a href="#" class="text-white">Pineapple</a>
                                     </li>
                                 </ul>
                             </div>
@@ -2779,36 +2889,48 @@
                                 <h5 class="text-uppercase link-title">Quick Links</h5>
                                 <ul class="list-unstyled mb-0 text-quick-links">
                                     <li>
-                                        <a href="#!" class="text-white">User Account</a>
+                                        <a href="#" class="text-white">User Account</a>
                                     </li>
                                     <li>
-                                        <a href="#!" class="text-white">Become An Affilate</a>
+                                        <a href="#" class="text-white">Become An Affilate</a>
                                     </li>
                                     <li>
-                                        <a href="#!" class="text-white">New Offer</a>
+                                        <a href="#" class="text-white">New Offer</a>
                                     </li>
                                     <li>
-                                        <a href="#!" class="text-white">Recent Blogs</a>
+                                        <a href="#" class="text-white">Recent Blogs</a>
                                     </li>
                                     <li>
-                                        <a href="#!" class="text-white">Help</a>
+                                        <a href="#" class="text-white">Help</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
                                 <h5 class="text-uppercase link-title">Easy Payment</h5>
-                                <ul class="list-unstyled mb-0">
+                                <ul class="payments list-unstyled mb-0">
                                     <li>
-                                        <a href="#!" class="text-white">Link 1</a>
+                                        <a href="#" class="text-white">
+                                        <i class="payment-icons fa-brands fa-cc-paypal"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#!" class="text-white">Link 2</a>
+                                        <a href="#" class="text-white">
+                                        <i class="payment-icons fa-brands fa-cc-visa"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#!" class="text-white">Link 3</a>
+                                        <a href="#" class="text-white">
+                                        <i class="payment-icons fa-brands fa-cc-mastercard"></i></a>
                                     </li>
                                     <li>
-                                        <a href="#!" class="text-white">Link 4</a>
+                                        <a href="#" class="text-white">
+                                        <i class="payment-icons fa-brands fa-cc-stripe"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white">
+                                        <i class="payment-icons fa-brands fa-cc-discover"></i>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-white">
+                                        <i class="payment-icons fa-brands fa-cc-jcb"></i>
                                     </li>
                                 </ul>
                             </div>
