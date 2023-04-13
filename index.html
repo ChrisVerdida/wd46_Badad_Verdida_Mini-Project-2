@@ -78,7 +78,8 @@
                                     data-bs-target="#hotline-and-email-modal"><i class="fa-solid fa-phone"></i></a>
                                 </li>
                                 <li class="social-media">
-                                    <a class="nav-link" href="#"><i class="fa-solid fa-cart-arrow-down"></i></i></i></a>
+                                    <div id="icon-shopping-cart"><i class="fa-solid fa-cart-arrow-down"></i>
+                                    <span id="item-counter">0</span></div>
                                 </li>
                                 <li class="social-media">
                                     <a class="nav-link" data-bs-toggle="modal" 
@@ -214,7 +215,7 @@
         <!-------------------------HOTLINE AND EMAIL MODAL SECTION END------------------------------------->
         <!-------------------------HOTLINE AND EMAIL MODAL SECTION END------------------------------------->
 
-        
+
 
 
         <!-------------------------CAROUSEL SECTION START------------------------------------->
@@ -1132,805 +1133,1610 @@
 
 
 
-        <!-------------------------FEATURED PRODUCTS SECTION START------------------------------------->
-        <!-------------------------FEATURED PRODUCTS SECTION START------------------------------------->
-        <!-------------------------FEATURED PRODUCTS SECTION START------------------------------------->
+        <!-------------------------FEATURED PRODUCTS AND ADD TO CART SECTION START------------------------------------->
+        <!-------------------------FEATURED PRODUCTS AND ADD TO CART SECTION START------------------------------------->
+        <!-------------------------FEATURED PRODUCTS AND ADD TO CART SECTION START------------------------------------->
         <div id="featured-products-section-home-link"></div>
-        <div id="featured-products-section">
-            <h2 class="container collection-title">Featured Products</h2>
-            <!-- VEGETABLES START -->
-            <div class="first-card-featured">
-                <div class="container container-titles">
-                    <h3 class="featured-collect-collections">Fresh Vegetables</h3>
-                    <p><a class="see-more-collections" href="#">Read More >></a></p>
-                </div>
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-md-4 g-4">
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">20% off</p>
+        <div id="featured-products-and-add-to-cart-section">
+            <div class="icon-links">
+                <div id="icon-shopping-cart"><span class="icon-cart-arrow-down"><span id="item-counter">0</span></div>
+                <div id="toggle-bar"><span class="toggler"></span></div>
+            </div>
+            <!-- section content area start -->
+            <div class="section-content">
+                <!-- featured products section start -->
+                <div class="featured-product-section" id="products">
+                    <div class="section-wrap">
+                        <div class="section-title">
+                            <h1>Featured Products</h1>
+                        </div>
+                        <!-- vegetables -->
+                        <div class="featured-product-wrap vegetables">
+                            <div class="sub-section-title">
+                                <p>Fresh Vegetables</p>
+                                <a href="#">See more <i class="fa-solid fa-angles-right"></i></span></a>
+                            </div>
+                            <div class="featured-products">
+                                <div class="product-wrap broccoli">
+                                    <div class="product-img">
+                                        <img src="img/vegetables/broccoli.jpg" alt="broccoli_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">20</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Broccoli</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">80</span>Tk/pcs
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/pcs
+                                            </ins>
+                                            <span class="f-product-unit">pcs</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <img class="card-img-top" src="img/vegetables/bean-seed.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Bean Seed</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>64Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
+                                <div class="product-wrap cabbage">
+                                    <div class="product-img">
+                                        <img src="img/vegetables/cabbage.jpg" alt="cabbage_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">18</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Cabbage</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">60</span>Tk/pcs
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/pcs
+                                            </ins>
+                                            <span class="f-product-unit">pcs</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap carrot">
+                                    <div class="product-img">
+                                        <img src="img/vegetables/carrot.jpg" alt="carrot_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">18</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Local Carrot</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">40</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap cucumber">
+                                    <div class="product-img">
+                                        <img src="img/vegetables/cucumber.jpg" alt="cucumber_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">24</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Local Cucumber</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">60</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap cauliflower">
+                                    <div class="product-img">
+                                        <img src="img/vegetables/cauliflower.jpg" alt="cauliflower_img">
+                                    </div>
+                                    <div class="product-icons cauliflower">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">22</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Cauliflower</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">80</span>Tk/pcs
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/pcs
+                                            </ins>
+                                            <span class="f-product-unit">pcs</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap potato">
+                                    <div class="product-img">
+                                        <img src="img/vegetables/potato.jpg" alt="potato_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">20</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Potato Seasonal</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">30</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap onion">
+                                    <div class="product-img">
+                                        <img src="img/vegetables/onion.jpg" alt="onion_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">12</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Local Onion</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">40</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap chili-local">
+                                    <div class="product-img">
+                                        <img src="img/vegetables/chili-local.jpg" alt="chilli_local_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">10</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Local Chili</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">50</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap bean-seed">
+                                    <div class="product-img">
+                                        <img src="img/vegetables/bean-seed.jpg" alt="bean_seed_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">18</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Bean Seed</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">120</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap long-bean">
+                                    <div class="product-img">
+                                        <img src="img/vegetables/long-bean.jpg" alt="long_bean_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">24</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Long Bean</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">60</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap tomato">
+                                    <div class="product-img">
+                                        <img src="img/vegetables/tomato.jpg" alt="tomato_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">22</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Tomato</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">40</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap motorshuti">
+                                    <div class="product-img">
+                                        <img src="img/vegetables/motorshuti.jpg" alt="motorshuti_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">16</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Motorshuti</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">140</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap radish">
+                                    <div class="product-img">
+                                        <img src="img/vegetables/radish.jpg" alt="radish_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">26</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Radish</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">30</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap red-radish">
+                                    <div class="product-img">
+                                        <img src="img/vegetables/red-radish.jpg" alt="red_radish_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">12</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Red Radish</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">40</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap chili">
+                                    <div class="product-img">
+                                        <img src="img/vegetables/chili.jpg" alt="chili_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">16</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Green Chili</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">50</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap peas">
+                                    <div class="product-img">
+                                        <img src="img/vegetables/peas.jpg" alt="peas_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">20</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Green Peas</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">90</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap capsicum">
+                                    <div class="product-img">
+                                        <img src="img/vegetables/capsicum.jpg" alt="capsicum_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">18</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Capsicum</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">110</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap zucchini">
+                                    <div class="product-img">
+                                        <img src="img/vegetables/zucchini.jpg" alt="zucchini_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">18</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Zucchini</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">80</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
+                        <!-- fruits -->
+                        <div class="featured-product-wrap fruits">
+                            <div class="sub-section-title">
+                                <p>Fresh Fruits</p>
+                                <a href="#">See more <i class="fa-solid fa-angles-right"></i></span></a>
+                            </div>
+                            <div class="featured-products">
+                                <div class="product-wrap apple">
+                                    <div class="product-img">
+                                        <img src="img/fruits/apple.jpg" alt="apple_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">18</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Fresh Apple</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">160</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <img class="card-img-top" src="img/vegetables/broccoli.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Broccoli</h5>
-                                    <h6 class="price">Price: <del>60Tk/pcs</del> <u>49Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
+                                <div class="product-wrap orange">
+                                    <div class="product-img">
+                                        <img src="img/fruits/orange.jpg" alt="orange_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">20</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Fresh Orange</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">140</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap orange-green">
+                                    <div class="product-img">
+                                        <img src="img/fruits/orange-green.jpg" alt="orange_green_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">18</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Green Orange</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">160</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap grape">
+                                    <div class="product-img">
+                                        <img src="img/fruits/grape.jpg" alt="grape_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">24</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Fresh Grape</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">180</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap kiwi">
+                                    <div class="product-img">
+                                        <img src="img/fruits/kiwi.jpg" alt="kiwi_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">22</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Fresh Kiwi</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">130</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap pomegranate">
+                                    <div class="product-img">
+                                        <img src="img/fruits/pomegranate.jpg" alt="pomegranate_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">20</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Pomegranate</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">180</span>Tk/pcs
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/pcs
+                                            </ins>
+                                            <span class="f-product-unit">pcs</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap strawberry">
+                                    <div class="product-img">
+                                        <img src="img/fruits/strawberry.jpg" alt="strawberry_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">48</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Strawberry</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">130</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap peach">
+                                    <div class="product-img">
+                                        <img src="img/fruits/peach.jpg" alt="peach_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">42</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Fresh Peach</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">160</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap mango">
+                                    <div class="product-img">
+                                        <img src="img/fruits/mango.jpg" alt="mango_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">36</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Fresh Mango</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">180</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap lemon">
+                                    <div class="product-img">
+                                        <img src="img/fruits/lemon.jpg" alt="lemon_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">24</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Fresh Lemon</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">120</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap cherry">
+                                    <div class="product-img">
+                                        <img src="img/fruits/cherry.jpg" alt="cherry_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">22</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Cherry</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">150</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap blueberry">
+                                    <div class="product-img">
+                                        <img src="img/fruits/blueberry.jpg" alt="blueberry_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">16</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Blueberry</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">140</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap pinapple">
+                                    <div class="product-img">
+                                        <img src="img/fruits/pinapple.jpg" alt="pinapple_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">26</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Pinapple</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">80</span>Tk/pcs
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/pcs
+                                            </ins>
+                                            <span class="f-product-unit">pcs</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap watermelon">
+                                    <div class="product-img">
+                                        <img src="img/fruits/watermelon.jpg" alt="watermelon_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">12</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Watermelon</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">350</span>Tk/pcs
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/pcs
+                                            </ins>
+                                            <span class="f-product-unit">pcs</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
+                        <!-- meat & fish -->
+                        <div class="featured-product-wrap meat-&-fish">
+                            <div class="sub-section-title">
+                                <p>Meat & Fish</p>
+                                <a href="#">See more <i class="fa-solid fa-angles-right"></i></span></a>
+                            </div>
+                            <div class="featured-products">
+                                <div class="product-wrap chicken">
+                                    <div class="product-img">
+                                        <img src="img/meat&fish/chicken.jpg" alt="chicken_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">12</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Chicken</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">160</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <img class="card-img-top" src="img/vegetables/cabbage.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Cabbage</h5>
-                                    <h6 class="price">Price: <del>40Tk/kg</del> <u>33Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
+                                <div class="product-wrap beef">
+                                    <div class="product-img">
+                                        <img src="img/meat&fish/beef.jpg" alt="beef_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">10</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Beef</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">620</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap buffalo">
+                                    <div class="product-img">
+                                        <img src="img/meat&fish/buffalo.jpg" alt="buffalo_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">18</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Buffalo</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">580</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap mutton">
+                                    <div class="product-img">
+                                        <img src="img/meat&fish/mutton.jpg" alt="mutton_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">50</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Mutton</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">860</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap camel">
+                                    <div class="product-img">
+                                        <img src="img/meat&fish/camel.jpg" alt="camel_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">22</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Camel</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">1220</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap shrimp">
+                                    <div class="product-img">
+                                        <img src="img/meat&fish/shrimp.jpg" alt="shrimp_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">16</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Shrimp</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">960</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap common-carp">
+                                    <div class="product-img">
+                                        <img src="img/meat&fish/common-carp.jpg" alt="common_carp_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">26</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Commom Curp</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">240</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap sprat">
+                                    <div class="product-img">
+                                        <img src="img/meat&fish/sprat.jpg" alt="sprat_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">12</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Sprat</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">460</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap trout">
+                                    <div class="product-img">
+                                        <img src="img/meat&fish/trout.jpg" alt="trout_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">16</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Trout</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">520</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">24% off</p>
+                        <!-- eggs -->
+                        <div class="featured-product-wrap eggs">
+                            <div class="sub-section-title">
+                                <p>Eggs</p>
+                                <a href="#">See more <i class="fa-solid fa-angles-right"></i></span></a>
+                            </div>
+                            <div class="featured-products">
+                                <div class="product-wrap koyel-egg">
+                                    <div class="product-img">
+                                        <img src="img/eggs/koyel-egg.jpg" alt="koyel_egg_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">22</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Koyel Egg</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">30</span>Tk/dzn
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/dzn
+                                            </ins>
+                                            <span class="f-product-unit">dzn</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <img class="card-img-top" src="img/vegetables/capsicum.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Capsicum</h5>
-                                    <h6 class="price">Price: <del>60Tk/kg</del> <u>46Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
+                                <div class="product-wrap chicken-egg">
+                                    <div class="product-img">
+                                        <img src="img/eggs/chicken-egg.jpg" alt="chicken_egg_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">16</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Chicken Egg</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">90</span>Tk/dzn
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/dzn
+                                            </ins>
+                                            <span class="f-product-unit">dzn</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap duck-egg">
+                                    <div class="product-img">
+                                        <img src="img/eggs/duck-egg.jpg" alt="duck_egg_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">26</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Duck Egg</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">120</span>Tk/dzn
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/dzn
+                                            </ins>
+                                            <span class="f-product-unit">dzn</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- beverages -->
+                        <div class="featured-product-wrap beverages">
+                            <div class="sub-section-title">
+                                <p>Beverages</p>
+                                <a href="#">See more <i class="fa-solid fa-angles-right"></i></span></a>
+                            </div>
+                            <div class="featured-products">
+                                <div class="product-wrap tea">
+                                    <div class="product-img">
+                                        <img src="img/beverages/tea.jpg" alt="tea_leaf_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">22</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Tea Leaf</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">820</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap coffe">
+                                    <div class="product-img">
+                                        <img src="img/beverages/coffe.jpg" alt="coffe_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">16</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Coffe</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">1180</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap green-tea">
+                                    <div class="product-img">
+                                        <img src="img/beverages/green-tea.jpg" alt="green_tea_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">26</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Green Tea</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">660</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- spices -->
+                        <div class="featured-product-wrap spices">
+                            <div class="sub-section-title">
+                                <p>Spices</p>
+                                <a href="#">See more <i class="fa-solid fa-angles-right"></i></span></a>
+                            </div>
+                            <div class="featured-products">
+                                <div class="product-wrap clove">
+                                    <div class="product-img">
+                                        <img src="img/spices/clove.jpg" alt="clove_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">12</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Clove</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">820</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap cardamom">
+                                    <div class="product-img">
+                                        <img src="img/spices/cardamom.jpg" alt="cardamom_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">26</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Cardamom</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">960</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap mix-spice">
+                                    <div class="product-img">
+                                        <img src="img/spices/mix-spice.jpg" alt="mix_spice_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">16</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Mix Spice</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">860</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- dried fruits -->
+                        <div class="featured-product-wrap dried-fruits">
+                            <div class="sub-section-title">
+                                <p>Dried Fruits</p>
+                                <a href="#">See more <i class="fa-solid fa-angles-right"></i></span></a>
+                            </div>
+                            <div class="featured-products">
+                                <div class="product-wrap almond">
+                                    <div class="product-img">
+                                        <img src="img/dried fruits/almond.jpg" alt="almond_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">16</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Almond</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">900</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap dates">
+                                    <div class="product-img">
+                                        <img src="img/dried fruits/dates.jpg" alt="dates_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">26</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Dates</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">460</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap raisins">
+                                    <div class="product-img">
+                                        <img src="img/dried fruits/raisins.jpg" alt="raisins_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">12</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Raisins</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">580</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="product-wrap cashew-nut">
+                                    <div class="product-img">
+                                        <img src="img/dried fruits/cashew-nut.jpg" alt="cashew_nut_img">
+                                    </div>
+                                    <div class="product-icons">
+                                        <div class="add-to-favorite">
+                                        <span><i class="fa-solid fa-heart"></i></span></div>
+                                        <p><span class="discount">16</span>% off</p>
+                                    </div>
+                                    <div class="product-description">
+                                        <p class="product-name">Cashew Nut</p>
+                                        <p class="price">
+                                            <strong>Price:</strong>
+                                            <del>
+                                                <span class="f-product-price">980</span>Tk/kg
+                                            </del>
+                                            <ins>
+                                                <span class="f-cur-price">000</span>Tk/kg
+                                            </ins>
+                                            <span class="f-product-unit">kg</span>
+                                        </p>
+                                        <div class="add-to-cart-btn">
+                                            <p><span class="icon-cart-plus"></span> Add to Cart</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="other-card-featured">
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-md-4 g-4">
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">22% off</p>
+                <!-- featured products section end  -->
+                <!-- shopping cart area start -->
+                <!-- selected and favorite product items area start -->
+                <div class="shopping-cart-area" id="product-cart-area">
+                    <div class="shopping-cart-wrap">
+                        <div class="product-cart-menu">
+                            <div class="cart-menu-items">
+                                <h2 id="selected-products" class="active-cart-menu">Selected Products</h2>
+                                <h2 id="favorite-products">Favorite Products</h2>
+                            </div>
+                            <div class="cart-close-btn">
+                                <button>Close Cart</button>
+                            </div>
+                        </div>
+                        <div class="cart-contents-header">
+                            <div class="total-cart-items">
+                                <p id="total-selected" class="active-product-counter">
+                                    <strong>Total Selected: </strong>
+                                    <span>No item found</span>
+                                </p>
+                                <p id="total-favorite">
+                                    <strong>Total Favorite: </strong>
+                                    <span>No item found</span>
+                                </p>
+                            </div>
+                            <div class="buying-product-title">
+                                <div class="total-buying-item">
+                                    <p>
+                                        <strong>Total Buying Items: </strong>
+                                        <span id="total-buying-item-counter">0</span>
+                                    </p>
                                 </div>
-                                <img class="card-img-top" src="img/vegetables/carrot.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Carrot</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>62Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
+                                <div class="buy-items-button">
+                                    <button id="buy-items">Buy Items</button>
                                 </div>
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">20% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/vegetables/cauliflower.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Cauliflower</h5>
-                                    <h6 class="price">Price: <del>30Tk/kg</del> <u>24Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
+                        <div class="cart-contents-area shopping-cart-contents-area active-cart-content">
+                            <!-- selected product contents -->
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">12% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/vegetables/chili-local.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Chili Local</h5>
-                                    <h6 class="price">Price: <del>40Tk/kg</del> <u>35Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">10% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/vegetables/chili.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Chili</h5>
-                                    <h6 class="price">Price: <del>50Tk/kg</del> <u>45Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
+                        <div class="cart-wishlist-area shopping-cart-contents-area">
+                            <!-- favorite product contents -->
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="other-card-featured">
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-md-4 g-4">
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/vegetables/cucumber.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Cucumber</h5>
-                                    <h6 class="price">Price: <del>120Tk/kg</del> <u>98Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
+                <!-- selected and favorite product items area end -->
+                <!-- buying details/shoping cart area start -->
+                <div class="buying-details-area">
+                    <div class="buying-details-wrap">
+                        <div class="shop-title">
+                            <h1>Shopping Cart</h1>
+                        </div>
+                        <div class="shopping-details-wrap">
+                            <div class="shopping-details-header">
+                                <div class="shopping-details">
+                                    <div class="shop-detail product-sl">
+                                        <h2>SL No.</h2>
+                                    </div>
+                                    <div class="shop-detail product-name">
+                                        <h2>Product Name</h2>
+                                    </div>
+                                    <div class="shop-detail regular-price">
+                                        <h2>Regular Price</h2>
+                                    </div>
+                                    <div class="shop-detail discount">
+                                        <h2>Discount</h2>
+                                    </div>
+                                    <div class="shop-detail present-price">
+                                        <h2>Present Price</h2>
+                                    </div>
+                                    <div class="shop-detail product-quantity">
+                                        <h2>Quantity</h2>
+                                    </div>
+                                    <div class="shop-detail total-amount">
+                                        <h2>Total Price</h2>
+                                    </div>
+                                    <div class="shop-detail remove-all-btn">
+                                        <button id="remove-all-items">Remove All</button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">24% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/vegetables/lemon.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Lemon</h5>
-                                    <h6 class="price">Price: <del>60Tk/kg</del> <u>46Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
+                            <div class="shopping-details-content">
+                                <!-- shopping details content -->
                             </div>
                         </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">22% off</p>
+                        <div class="buying-details-footer">
+                            <div class="calculate-buying-details">
+                                <div class="calculate-total-items">
+                                    <h2>Total Items: </h2>
+                                    <p><span>000</span></p>
                                 </div>
-                                <img class="card-img-top" src="img/vegetables/long-bean.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Long Bean</h5>
-                                    <h6 class="price">Price: <del>40Tk/kg</del> <u>31Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
+                                <div class="calculate-total-quantity">
+                                    <h2>Total Quantity: </h2>
+                                    <p>total quantity display here</p>
+                                </div>
+                                <div class="calculate-total-amount">
+                                    <h2>Total Amount: </h2>
+                                    <p><span>000</span> Tk.</p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">16% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/vegetables/motorshuti.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Motorshuti</h5>
-                                    <h6 class="price">Price: <del>140Tk/kg</del> <u>118Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
+                            <div class="confirm-order-button">
+                                <button id="confirm-order-btn">Confirm Order</button>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- VEGETABLES END -->
-            <!-- FRUITS START -->
-            <div class="first-card-featured">
-                <div class="container container-titles">
-                    <h3 class="featured-collect-collections">Fresh Fruits</h3>
-                    <p><a class="see-more-collections" href="#">Read More >></a></p>
-                </div>
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-md-4 g-4">
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">20% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/fruits/apple.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Fresh Apple</h5>
-                                    <h6 class="price">Price: <del>160Tk/kg</del> <u>131Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/fruits/blueberry.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Blueberry</h5>
-                                    <h6 class="price">Price: <del>140Tk/kg</del> <u>112Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/fruits/cherry.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Cherry</h5>
-                                    <h6 class="price">Price: <del>160Tk/kg</del> <u>131Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">24% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/fruits/date.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Date</h5>
-                                    <h6 class="price">Price: <del>180Tk/kg</del> <u>137Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="close-buy-area">
+                        <div id="close-buy-area-btn"></div>
                     </div>
                 </div>
+                <!-- buying details/shoping cart area end -->
+                <!-- /\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\ -->
+                <!-- shopping cart area end -->
             </div>
-            <div class="other-card-featured">
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-md-4 g-4">
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">20% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/fruits/grape-black.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Grape Black</h5>
-                                    <h6 class="price">Price: <del>130Tk/kg</del> <u>101Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/fruits/grape.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Grape</h5>
-                                    <h6 class="price">Price: <del>180Tk/pcs</del> <u>144Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/fruits/kiwi.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Kiwi</h5>
-                                    <h6 class="price">Price: <del>130Tk/kg</del> <u>68Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">24% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/fruits/lemon.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Lemon</h5>
-                                    <h6 class="price">Price: <del>160Tk/kg</del> <u>93Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="other-card-featured">
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-md-4 g-4">
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">20% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/fruits/local-orange.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Local Orange</h5>
-                                    <h6 class="price">Price: <del>180Tk/kg</del> <u>115Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/fruits/mango.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Mango</h5>
-                                    <h6 class="price">Price: <del>120Tk/kg</del> <u>91Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/fruits/orange-green.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Orange Green</h5>
-                                    <h6 class="price">Price: <del>150Tk/kg</del> <u>117Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">24% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/fruits/orange.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Orange</h5>
-                                    <h6 class="price">Price: <del>140Tk/kg</del> <u>118Tk/kg</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- FRUITS END -->
-            <!-- MEAT AND FISH START -->
-            <div class="first-card-featured">
-                <div class="container container-titles">
-                    <h3 class="featured-collect-collections">Meat & Fish</h3>
-                    <p><a class="see-more-collections" href="#">Read More >></a></p>
-                </div>
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-md-4 g-4">
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">20% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/meat&fish/beef.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Beef</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/meat&fish/buffalo.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Buffalo</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/meat&fish/camel.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Camel</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">24% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/meat&fish/chicken.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Chicken</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="other-card-featured">
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-md-4 g-4">
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">20% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/meat&fish/common-carp.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Common Carp</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/meat&fish/mutton.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Mutton</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/meat&fish/shrimp.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Shrimp</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">24% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/meat&fish/sprat.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Sprat</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- MEAT AND FISH END -->
-            <!-- EGGS START -->
-            <div class="first-card-featured">
-                <div class="container container-titles">
-                    <h3 class="featured-collect-collections">Eggs</h3>
-                    <p><a class="see-more-collections" href="#">Read More >></a></p>
-                </div>
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-md-4 g-4">
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">20% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/eggs/chicken-egg.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Chicken Egg</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/eggs/duck-egg.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Duck Egg</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/eggs/koyel-egg.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Koyel Egg</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- EGGS END -->
-            <!-- BEVERAGES START -->
-            <div class="first-card-featured">
-                <div class="container container-titles">
-                    <h3 class="featured-collect-collections">Beverages</h3>
-                    <p><a class="see-more-collections" href="#">Read More >></a></p>
-                </div>
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-md-4 g-4">
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">20% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/beverages/coffe.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Coffe</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/beverages/green-tea.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Green Tea</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/beverages/tea.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Tea</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- BEVERAGES END -->
-            <!-- SPICES START -->
-            <div class="first-card-featured">
-                <div class="container container-titles">
-                    <h3 class="featured-collect-collections">Beverages</h3>
-                    <p><a class="see-more-collections" href="#">Read More >></a></p>
-                </div>
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-md-4 g-4">
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">20% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/spices/cardamom.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Cardamom</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/spices/clove.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Clove</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/spices/mix-spice.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Mix Spice</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- SPICES END -->
-            <!-- DRIED FRUITS START -->
-            <div class="first-card-featured">
-                <div class="container container-titles">
-                    <h3 class="featured-collect-collections">Beverages</h3>
-                    <p><a class="see-more-collections" href="#">Read More >></a></p>
-                </div>
-                <div class="container">
-                    <div class="row row-cols-1 row-cols-md-4 g-4">
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">20% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/dried fruits/almond.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Almond</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/dried fruits/cashew-nut.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Cashew Nut</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/dried fruits/dates.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Dates</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="card">
-                                <i id="myHeart" class="fa-solid fa-heart" onclick="myHeart(this)"></i>
-                                <div class="featured-products-off">
-                                    <p class="featured-off">18% off</p>
-                                </div>
-                                <img class="card-img-top" src="img/dried fruits/raisins.jpg" alt="featured-products">
-                                <div class="card-body">
-                                    <h5 class="card-title">Raisins</h5>
-                                    <h6 class="price">Price: <del>80Tk/pcs</del> <u>59Tk/pcs</u></h6>
-                                    <button type="button" class="btn"><i class="fa-solid fa-cart-plus">
-                                    </i> Add to Cart</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- DRIED FRUITS END -->
+            <!-- section content area end -->
         </div>
-        <!-------------------------FEATURED PRODUCTS SECTION END------------------------------------->
-        <!-------------------------FEATURED PRODUCTS SECTION END------------------------------------->
-        <!-------------------------FEATURED PRODUCTS SECTION END------------------------------------->
+        <!-------------------------FEATURED PRODUCTS AND ADD TO CART SECTION END------------------------------------->
+        <!-------------------------FEATURED PRODUCTS AND ADD TO CART SECTION END------------------------------------->
+        <!-------------------------FEATURED PRODUCTS AND ADD TO CART SECTION END------------------------------------->
 
 
 
