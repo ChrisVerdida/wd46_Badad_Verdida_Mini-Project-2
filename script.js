@@ -478,7 +478,7 @@ function createSelectedProductsContent(image, name, price, unit, discount, prese
         newSpan[i] = document.createElement('span');
     }
     newSpan[0].textContent = name;
-    newSpan[1].textContent = price + `Tk/${unit}`;
+    newSpan[1].textContent = price + `₱/${unit}`;
     newSpan[2].textContent = discount + '%';
     for (let i = 0; i < 3; i++) {
         newPara[i].appendChild(newSpan[i]);
@@ -576,7 +576,6 @@ function deactiveFavoriteItemAddToCartBtn(productIndex) {
 function favoriteContentWrapper() {
     let newProductWrapper = document.createElement('div');
     newProductWrapper.setAttribute('class', 'product-wrap');
-
     return newProductWrapper;
 }
 // add items to favorite products
@@ -639,11 +638,11 @@ function createShoppingCartItem(itemName, itemPrice, itemUnit, itemDiscount, pre
     let totalPrice = itemQuantity * presentPrice;
     totalPrice = totalPrice.toFixed(2);
     newChildPara[1].innerHTML = itemName;
-    newChildPara[2].innerHTML = itemPrice + `Tk/${itemUnit}`;
+    newChildPara[2].innerHTML = itemPrice + `₱/${itemUnit}`;
     newChildPara[3].innerHTML = itemDiscount + `%`;
-    newChildPara[4].innerHTML = presentPrice + `Tk/${itemUnit}`;
+    newChildPara[4].innerHTML = presentPrice + `₱/${itemUnit}`;
     newChildPara[5].innerHTML = itemQuantity + ` ${itemUnit}`;
-    newChildPara[6].innerHTML = totalPrice + ` Tk`;
+    newChildPara[6].innerHTML = totalPrice + ` ₱`;
     for (let i = 0; i < 7; i++) {
         newChildDiv[i].appendChild(newChildPara[i]);
     }
