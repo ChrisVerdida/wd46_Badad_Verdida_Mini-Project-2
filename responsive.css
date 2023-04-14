@@ -94,6 +94,12 @@
         margin-left: 10px;
         height: 35px;
     }
+    #header-section .form-control {
+        position: static;
+        border-radius: 0px;
+        border-style: none;
+        width: 250px;
+    }
     #header-section .socmeds {
         display: flex;
         margin-left: 5px;
@@ -126,6 +132,23 @@
     }
     #overview-section .card > img {
         height: 210px;
+    }
+    #footer-section .payments {
+        display: flex;
+        flex-wrap: wrap;
+        width: 240px;
+        margin-left: 10px;
+    }
+    #footer-section .payments > li {
+        margin-left: 5px;
+    }
+    #footer-section .payment-icons {
+        font-size: 3.20rem;
+    }
+    #header-section .fa-cart-arrow-down {
+        margin-top: 10px;
+        margin-left: 20px;
+        cursor: pointer;
     }
 }
 @media screen and (max-width: 1170px) {
@@ -197,7 +220,7 @@
         margin-left: 1px;
     }
     #header-section .nav-link {
-        margin-left: 5px;
+        margin-left: 1px;
         font-weight: bold;
         font-size: 1.10rem;
         transition: all 0.5s ease;
@@ -212,13 +235,18 @@
     }
     #header-section .socmeds {
         display: flex;
-        margin-left: 1px;
+        margin-left: 10px;
     }
     #header-section .form-control {
         position: static;
         border-radius: 0px;
         border-style: none;
-        width: 270px;
+        width: 250px;
+    }
+    #header-section .fa-cart-arrow-down {
+        margin-top: 10px;
+        margin-left: 10px;
+        cursor: pointer;
     }
 }
 @media screen and (max-width: 1143px) {
@@ -310,6 +338,35 @@
         padding: 3rem 0 0 0;
     }
 }
+@media screen and (max-width: 992px) {
+    #header-section .logo {
+        margin-left: 1px;
+    }
+    #header-section .nav-link {
+        margin-left: 1px;
+        font-weight: bold;
+        font-size: 1.10rem;
+        transition: all 0.5s ease;
+        color: #333333 !important;
+        font-family: 'Work Sans', sans-serif;
+    }
+    #header-section .search-form {
+        display: flex;
+        margin-top: 3px;
+        margin-left: 1px;
+        height: 35px;
+    }
+    #header-section .socmeds {
+        display: flex;
+        margin-left: 1px;
+    }
+    #header-section .form-control {
+        position: static;
+        border-radius: 0px;
+        border-style: none;
+        width: 170px;
+    }
+}
 @media screen and (max-width: 991px) {
     #featured-products-section .row {
         width: 800px;
@@ -333,6 +390,18 @@
     #overview-section {
         margin-top: 130px;
         margin-right: 200px;
+    }
+    #footer-section .payments {
+        display: flex;
+        flex-wrap: wrap;
+        width: 240px;
+        margin-left: 45px;
+    }
+    #footer-section .payments > li {
+        margin-left: 15px;
+    }
+    #footer-section .payment-icons {
+        font-size: 3.20rem;
     }
 }
 @media screen and (max-width: 990px) {
@@ -498,6 +567,20 @@
     }
     #big-offer-soon-section .hot-deals {
         height: 1300px;
+    }
+}
+@media screen and (max-width: 767px) {
+    #footer-section .payments {
+        display: flex;
+        flex-wrap: wrap;
+        width: 240px;
+        margin-left: 130px;
+    }
+    #footer-section .payments > li {
+        margin-left: 15px;
+    }
+    #footer-section .payment-icons {
+        font-size: 3.20rem;
     }
 }
 @media screen and (max-width: 764px) {
@@ -738,6 +821,20 @@
         margin-left: 20px;
     }
 }
+@media screen and (max-width: 522px) {
+    #footer-section .payments {
+        display: flex;
+        flex-wrap: wrap;
+        width: 240px;
+        margin-left: 90px;
+    }
+    #footer-section .payments > li {
+        margin-left: 15px;
+    }
+    #footer-section .payment-icons {
+        font-size: 3.20rem;
+    }
+}
 @media screen and (max-width: 490px) {
     #big-offer-soon-section .section-wrap {
         padding: 2rem 1rem;
@@ -806,6 +903,20 @@
 @media screen and (max-width: 440px) {
     #customer-review-section .customer-review .review-items {
         margin-top: 1rem;
+    }
+}
+@media screen and (max-width: 425px) {
+    #footer-section .payments {
+        display: flex;
+        flex-wrap: wrap;
+        width: 240px;
+        margin-left: 40px;
+    }
+    #footer-section .payments > li {
+        margin-left: 15px;
+    }
+    #footer-section .payment-icons {
+        font-size: 3.20rem;
     }
 }
 @media screen and (max-width: 420px) {
@@ -976,6 +1087,20 @@
     }
     #featured-products-and-add-to-cart-section .calculate-buying-details div p {
         font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 344px) {
+    #footer-section .payments {
+        display: flex;
+        flex-wrap: wrap;
+        width: 240px;
+        margin-left: 15px;
+    }
+    #footer-section .payments > li {
+        margin-left: 15px;
+    }
+    #footer-section .payment-icons {
+        font-size: 3.20rem;
     }
 }
 @media screen and (max-width: 340px) {

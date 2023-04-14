@@ -100,6 +100,7 @@ body {
 #header-section .fa-cart-arrow-down {
     margin-top: 10px;
     margin-left: 30px;
+    cursor: pointer;
 }
 /* ---------------------------HEADER SECTION END--------------------------- */
 /* ---------------------------HEADER SECTION END--------------------------- */
@@ -1100,6 +1101,7 @@ body {
 =================================== */
 #featured-products-and-add-to-cart-section .featured-product-section {
     padding-bottom: 2rem;
+    margin-top: 160px;
 }
 #featured-products-and-add-to-cart-section .featured-product-wrap {
     padding-top: 3.6rem;
