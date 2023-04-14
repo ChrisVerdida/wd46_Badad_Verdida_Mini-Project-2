@@ -576,6 +576,7 @@ function deactiveFavoriteItemAddToCartBtn(productIndex) {
 function favoriteContentWrapper() {
     let newProductWrapper = document.createElement('div');
     newProductWrapper.setAttribute('class', 'product-wrap');
+
     return newProductWrapper;
 }
 // add items to favorite products

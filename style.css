@@ -2292,6 +2292,10 @@ body {
     position: absolute;
     z-index: 1;
 }
+#overview-section .card-title {
+    font-weight: bold;
+    font-family: 'Work Sans', sans-serif;
+}
 /* ---------------------------OVERVIEW SECTION END--------------------------- */
 /* ---------------------------OVERVIEW SECTION END--------------------------- */
 /* ---------------------------OVERVIEW SECTION END--------------------------- */
